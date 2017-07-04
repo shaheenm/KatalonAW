@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CloseModal_AddPagetoDelete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a6f97a3-d4ec-4c93-a775-525f69a1d695</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Draft 1 Delete'</defaultValue>
+      <description></description>
+      <id>ce514531-1e3c-4db1-bc94-29caf1838f35</id>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Draft Delete and Close'</defaultValue>
+      <description></description>
+      <id>6a386514-21e6-447d-a9ac-6174fdc281e5</id>
+      <name>Text</name>
+   </variable>
+</TestCaseEntity>

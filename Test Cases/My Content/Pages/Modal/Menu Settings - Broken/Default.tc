@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4fc1574-8550-45b3-bfc0-683af665c1d5</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Draft 1'</defaultValue>
+      <description></description>
+      <id>45c1956b-bd50-4556-a56e-9887cb54df2f</id>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'MenuTitle'</defaultValue>
+      <description></description>
+      <id>fb516f72-7836-4efb-8ed4-7f22a5095c29</id>
+      <name>MenuTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a menu Description '</defaultValue>
+      <description></description>
+      <id>45458c66-db8f-4d1d-9c41-0170f8615448</id>
+      <name>MenuDescription</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Draft_Add_Delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>829c9331-b6c3-4eec-b822-2c846870ae29</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Draft 1'</defaultValue>
+      <description></description>
+      <id>553ed446-a7e0-46fb-a53b-83d6b4082823</id>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Draft Test'</defaultValue>
+      <description></description>
+      <id>4adadfe1-125a-46e1-9667-61a0345de935</id>
+      <name>Text</name>
+   </variable>
+</TestCaseEntity>

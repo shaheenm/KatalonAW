@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Revisions</name>
+   <tag></tag>
+   <elementGuidId>dfc434f8-b234-4e04-bf93-1940d16e72f2</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;block-aw-dashboard-content&quot;)/div[@class=&quot;views-element-container&quot;]/div[@class=&quot;pages dashboard-content view view-pages view-id-pages view-display-id-dashboard_page js-view-dom-id-37533626dc353c61b244cb5a0c5583744ddbc8ec78db02845fbfe5c58d38f417&quot;]/div[@class=&quot;view-content&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;views-table views-view-table cols-5 table&quot;]/tbody[1]/tr[1]/td[@class=&quot;views-field views-field-entity-operations-icons&quot;]/ul[@class=&quot;operations--icons&quot;]/li[@class=&quot;revisions&quot;]/a[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/node/1042/revisions</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Revisions</value>
+   </webElementProperties>
+</WebElementEntity>

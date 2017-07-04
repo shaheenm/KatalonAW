@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send_to_review_Add_Delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebc1ca14-c0c2-4877-9f48-762e906d82d1</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Send to Review 1'</defaultValue>
+      <description></description>
+      <id>b8cc6b40-a7ba-4b3d-a2de-e35ea5229094</id>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This page is directly sent to review'</defaultValue>
+      <description></description>
+      <id>9d554f30-9de9-4c22-b7b9-7cc047ee9c50</id>
+      <name>Text</name>
+   </variable>
+</TestCaseEntity>
