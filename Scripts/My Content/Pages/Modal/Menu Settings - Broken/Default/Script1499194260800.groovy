@@ -45,29 +45,32 @@ WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui
 
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
 
-WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
+'FAILS due to CSS overlap\r\n'
+WebUI.check(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/input_menuenabled'))
 
-WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
+not_run: WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/input_menutitle'), MenuTitle)
 
-WebUI.waitForPageLoad(2)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/textarea_menudescription'), MenuDescription)
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/input_menuweight'), '5')
 
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Delete'))
+WebUI.selectOptionByValue(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/select_menumenu_parent'), '2', true)
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/button_Delete'))
+not_run: WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
-WebUI.waitForElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/div_ui-dialog ui-widget ui-wid'), 
-    2)
+not_run: WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
-WebUI.verifyElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/div_ui-dialog ui-widget ui-wid'), 
-    2)
+not_run: WebUI.waitForPageLoad(2)
 
-WebUI.waitForPageLoad(2)
+not_run: WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
 
-Preview_Url = WebUI.getUrl()
+not_run: actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
 
-WebUI.verifyMatch(('https://' + GlobalVariable.Username) + '-dev.force1.awdev.ca/dashboard/preview#/', Preview_Url, true)
+not_run: WebUI.verifyMatch(actual_title, 'TEST DRAFT 1', true)
 
-WebUI.closeBrowser()
+not_run: actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
+
+not_run: WebUI.verifyMatch(actual_text, 'This is a Draft Test', true)
+
+not_run: WebUI.closeBrowser()
 
