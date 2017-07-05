@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Draft_Send_to_review_blog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4065d074-4bfb-4c64-b93f-fa43d323fb63</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Blog Draft 1'</defaultValue>
+      <description></description>
+      <id>582e718b-6019-4953-a7c8-fc5c0799915d</id>
+      <name>Title_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Blog Draft Test'</defaultValue>
+      <description></description>
+      <id>7f29b1b4-fa79-45e8-9e3f-2d4c86200a73</id>
+      <name>Text_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Blog Draft Edit 1'</defaultValue>
+      <description></description>
+      <id>846b4c14-6ccd-4db7-8a16-3c243986f4d5</id>
+      <name>Title_Edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Blog Draft Edit Test'</defaultValue>
+      <description></description>
+      <id>47d9cf8e-c997-404a-9a0b-2cfa32c2b3fb</id>
+      <name>Text_Edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Item1'</defaultValue>
+      <description></description>
+      <id>8389e284-5a12-44bc-ad16-910d4a071f97</id>
+      <name>Tags</name>
+   </variable>
+</TestCaseEntity>

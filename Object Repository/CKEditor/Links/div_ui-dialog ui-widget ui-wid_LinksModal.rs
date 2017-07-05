@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ui-dialog ui-widget ui-wid_LinksModal</name>
+   <tag></tag>
+   <elementGuidId>0709e76a-b7a9-4bbc-a56e-09c853d146c5</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;touchevents details js wf-lato-n4-active wf-active&quot;]/body[@class=&quot;layout-no-sidebars has-featured-top user-logged-in path-dashboard off-canvas-wrap&quot;]/div[@class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-front editor-link-dialog ui-dialog--narrow ui-dialog-buttons&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>ui-id-4</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-dialog ui-widget ui-widget-content ui-corner-all ui-front editor-link-dialog ui-dialog--narrow ui-dialog-buttons</value>
+   </webElementProperties>
+</WebElementEntity>

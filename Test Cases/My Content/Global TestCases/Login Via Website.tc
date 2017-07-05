@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Switch Between &quot;Login Via Website&quot; and &quot;Login Via Accounts&quot;</description>
+   <name>Login Via Website</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f27db7b-f931-4e1d-8b30-217abb939dbb</testCaseGuid>
+</TestCaseEntity>

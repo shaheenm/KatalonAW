@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Internal Links</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19ab24ad-7147-42de-aeb0-12348356f7fa</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.google.com'</defaultValue>
+      <description></description>
+      <id>620d4b61-1895-4bf8-8012-0afe594f4b3c</id>
+      <name>Internal_Url</name>
+   </variable>
+   <variable>
+      <defaultValue>'Links'</defaultValue>
+      <description></description>
+      <id>3648cf2c-a94c-49d2-a996-fa930c050f39</id>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Google'</defaultValue>
+      <description></description>
+      <id>dd1c2749-dd82-4733-aed9-64da4284f836</id>
+      <name>Internal_title</name>
+   </variable>
+</TestCaseEntity>

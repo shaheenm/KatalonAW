@@ -25,13 +25,19 @@ WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website')
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'))
+
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    2)
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    2)
 
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
+
+WebUI.setText(findTestObject('Page_Blogs junetest2bda/input_field_tagstarget_id_Tags'), Tag)
 
 WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
 
