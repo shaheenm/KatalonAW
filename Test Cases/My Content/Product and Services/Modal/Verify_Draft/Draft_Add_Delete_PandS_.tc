@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Draft_Add_Delete_PandS_</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65f9e629-daa2-4cb4-8138-11cd1b6f3ad5</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Draft 1'</defaultValue>
+      <description></description>
+      <id>5f39e8ec-a4f1-4f07-bd52-7ca40b5fb0ae</id>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Draft Test'</defaultValue>
+      <description></description>
+      <id>967d0f9f-2b9e-4424-ac0c-c19e03602ed9</id>
+      <name>Text</name>
+   </variable>
+</TestCaseEntity>

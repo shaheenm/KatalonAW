@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Draft_Send_to_review_PandS_</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a51ebf42-5699-453b-be83-40fe6e3461cd</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Draft 1'</defaultValue>
+      <description></description>
+      <id>838b1d57-434f-4beb-aa54-21e763760483</id>
+      <name>Title_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Draft Test'</defaultValue>
+      <description></description>
+      <id>c12e5ad9-b090-416b-a537-2d81cd6758e6</id>
+      <name>Text_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Draft Edit 1'</defaultValue>
+      <description></description>
+      <id>f0553021-18af-4882-9bcf-961c2812c91c</id>
+      <name>Title_Edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Draft Edit Test'</defaultValue>
+      <description></description>
+      <id>8bd01f16-447e-416d-8de9-fc03bec45b2c</id>
+      <name>Text_Edit</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send_to_review_Add_PandS_</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcfe5024-e393-4658-a050-96197e3452a0</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Send to Review 1'</defaultValue>
+      <description></description>
+      <id>67bb8533-2288-4bb4-8b29-55df270a8507</id>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This page is directly sent to review'</defaultValue>
+      <description></description>
+      <id>ec0f6e2b-6cb3-484e-b6e0-2f4c29f10f1b</id>
+      <name>Text</name>
+   </variable>
+</TestCaseEntity>

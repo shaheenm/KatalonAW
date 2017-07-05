@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send_to_review_Edit_PandS_</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9dafa61a-f93e-4287-b89b-26fa6b9b959a</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Send to Review 1'</defaultValue>
+      <description></description>
+      <id>4319a75b-18d8-4deb-a4f6-9ae25c7263db</id>
+      <name>Title_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a page sent straight to review'</defaultValue>
+      <description></description>
+      <id>bad60f67-0bfa-4708-8fbe-ef285c1ae25e</id>
+      <name>Text_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Send to Review Edit 1'</defaultValue>
+      <description></description>
+      <id>cdc78744-6f86-439e-b203-42409cbf0f51</id>
+      <name>Title_Edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Send to view page is edited'</defaultValue>
+      <description></description>
+      <id>5616d5c0-e97e-46bd-8565-fd1b0b01456a</id>
+      <name>Text_Edit</name>
+   </variable>
+</TestCaseEntity>
