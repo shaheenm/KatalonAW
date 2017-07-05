@@ -25,35 +25,45 @@ WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website')
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'))
+
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    2)
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    2)
 
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
 
-WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
+WebUI.setText(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'), Tags)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text)
+WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
-WebUI.switchToDefaultContent()
-
-WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
-
-WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
+WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
+WebUI.verifyTextPresent(Title, true)
 
-WebUI.verifyMatch(actual_title, 'TEST DRAFT 1', true)
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Delete'))
 
-WebUI.verifyMatch(actual_text, 'This is a Draft Test', true)
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/button_Delete'))
+
+WebUI.waitForElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/div_ui-dialog ui-widget ui-wid'), 
+    2)
+
+WebUI.verifyElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/div_ui-dialog ui-widget ui-wid'), 
+    2)
+
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
+
+WebUI.verifyTextNotPresent(Title, true)
 
 WebUI.closeBrowser()
 

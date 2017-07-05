@@ -19,21 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
+WebUI.navigateToUrl(GlobalVariable.Website)
 
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
+WebUI.maximizeWindow()
 
-WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.setText(findTestObject('Page_Log in  AW Force/input_name_Username'), GlobalVariable.Username)
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.setText(findTestObject('Page_Log in  AW Force/input_pass_Password'), GlobalVariable.password)
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), 2)
+WebUI.click(findTestObject('Page_Log in  AW Force/input_op_Submit'))
 
-WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/Button_Close'))
-
-WebUI.verifyElementNotPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
-
-WebUI.closeBrowser()
+WebUI.waitForPageLoad(2)
 

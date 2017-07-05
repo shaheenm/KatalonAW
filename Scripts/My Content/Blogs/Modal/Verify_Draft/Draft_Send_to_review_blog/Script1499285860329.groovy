@@ -25,35 +25,25 @@ WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website')
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Edit'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    2)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
+WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    4)
 
-WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
+WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text)
-
-WebUI.switchToDefaultContent()
-
-WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
-
-WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
+WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
-
-WebUI.verifyMatch(actual_title, 'TEST DRAFT 1', true)
-
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
-
-WebUI.verifyMatch(actual_text, 'This is a Draft Test', true)
+WebUI.verifyTextPresent(Title_Edit, true)
 
 WebUI.closeBrowser()
 

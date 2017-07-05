@@ -33,27 +33,32 @@ WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui
 
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
 
-WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
+'FAILS due to CSS overlap\r\n'
+WebUI.check(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/input_menuenabled'))
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text)
+not_run: WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/input_menutitle'), MenuTitle)
 
-WebUI.switchToDefaultContent()
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/textarea_menudescription'), MenuDescription)
 
-WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/input_menuweight'), '5')
 
-WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
+WebUI.selectOptionByValue(findTestObject('Page_Pages  junetest2bda/Modal/Menu_Settings/select_menumenu_parent'), '2', true)
 
-WebUI.waitForPageLoad(2)
+not_run: WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
-WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
+not_run: WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
-actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
+not_run: WebUI.waitForPageLoad(2)
 
-WebUI.verifyMatch(actual_title, 'TEST DRAFT 1', true)
+not_run: WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
 
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
+not_run: actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
 
-WebUI.verifyMatch(actual_text, 'This is a Draft Test', true)
+not_run: WebUI.verifyMatch(actual_title, 'TEST DRAFT 1', true)
 
-WebUI.closeBrowser()
+not_run: actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
+
+not_run: WebUI.verifyMatch(actual_text, 'This is a Draft Test', true)
+
+not_run: WebUI.closeBrowser()
 

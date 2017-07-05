@@ -5,7 +5,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'junetest2bda.force1.awdev.ca/user'</initValue>
-      <name>Accounts</name>
+      <name>Website</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -16,5 +16,10 @@
       <description></description>
       <initValue>'welcome'</initValue>
       <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'shaccounts.force1.awdev.ca/user'</initValue>
+      <name>Account</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
