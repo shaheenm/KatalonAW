@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Draft_Send_to_review_Team_</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee60a4df-1aec-406c-ac00-be02001e49dd</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Team Draft 1'</defaultValue>
+      <description></description>
+      <id>868b79ae-850e-499f-9035-191768e95276</id>
+      <name>Title_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Team Draft Test'</defaultValue>
+      <description></description>
+      <id>e6cfd645-1cc9-4073-a6df-8127a8b0c1e0</id>
+      <name>Text_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Team Draft Edit 1'</defaultValue>
+      <description></description>
+      <id>65ee582e-17ae-450b-a7ec-3f3f48375d23</id>
+      <name>Title_Edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Team Draft Edit Test'</defaultValue>
+      <description></description>
+      <id>38c8753e-b02c-4926-8d7a-b0414f722532</id>
+      <name>Text_Edit</name>
+   </variable>
+</TestCaseEntity>

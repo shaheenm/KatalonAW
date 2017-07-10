@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>9fca2d0e-335d-42c2-9297-2174792db4ac</testCaseGuid>
    <variable>
-      <defaultValue>'Test Send to Review 1'</defaultValue>
+      <defaultValue>'Test Product Send to Review 1'</defaultValue>
       <description></description>
       <id>d773d1a3-60fb-406f-b3bd-5d91e5eaffc1</id>
       <name>Title</name>

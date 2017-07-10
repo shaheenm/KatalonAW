@@ -25,11 +25,15 @@ WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website')
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Products  Services'))
+
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Edit'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    2)
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 4)
+WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    4)
 
 WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 

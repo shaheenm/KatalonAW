@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>9dafa61a-f93e-4287-b89b-26fa6b9b959a</testCaseGuid>
    <variable>
-      <defaultValue>'Test Send to Review 1'</defaultValue>
+      <defaultValue>'Test Product Send to Review 1'</defaultValue>
       <description></description>
       <id>4319a75b-18d8-4deb-a4f6-9ae25c7263db</id>
       <name>Title_Add</name>
@@ -18,7 +18,7 @@
       <name>Text_Add</name>
    </variable>
    <variable>
-      <defaultValue>'Test Send to Review Edit 1'</defaultValue>
+      <defaultValue>'Test Product Send to Review Edit 1'</defaultValue>
       <description></description>
       <id>cdc78744-6f86-439e-b203-42409cbf0f51</id>
       <name>Title_Edit</name>

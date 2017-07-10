@@ -6,13 +6,13 @@
    <comment></comment>
    <testCaseGuid>08e5f848-270d-4562-b5cb-923fe7850022</testCaseGuid>
    <variable>
-      <defaultValue>'Test Draft 1'</defaultValue>
+      <defaultValue>'Test Product Draft 1'</defaultValue>
       <description></description>
       <id>573a4b75-7e3c-4015-a387-8f463567dbef</id>
       <name>Title</name>
    </variable>
    <variable>
-      <defaultValue>'This is a Draft Test'</defaultValue>
+      <defaultValue>'This is a Product Draft Test'</defaultValue>
       <description></description>
       <id>d91fb7f3-011d-47d3-8fbd-838d6c1ea5d1</id>
       <name>Text</name>

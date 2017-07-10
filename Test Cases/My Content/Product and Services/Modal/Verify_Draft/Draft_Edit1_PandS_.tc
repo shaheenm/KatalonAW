@@ -6,25 +6,25 @@
    <comment></comment>
    <testCaseGuid>c9da9d45-1c3d-4062-b017-bc581cc4c25f</testCaseGuid>
    <variable>
-      <defaultValue>'Test Draft 1'</defaultValue>
+      <defaultValue>'Test Product Draft 1'</defaultValue>
       <description></description>
       <id>db76c10b-52b8-4a3c-b13f-05ed997f0a6c</id>
       <name>Title_Add</name>
    </variable>
    <variable>
-      <defaultValue>'This is a Draft Test'</defaultValue>
+      <defaultValue>'This is a Product  Draft Test'</defaultValue>
       <description></description>
       <id>93108c8b-4ce4-4861-b551-57d1c1607a0b</id>
       <name>Text_Add</name>
    </variable>
    <variable>
-      <defaultValue>'Test Draft Edit 1'</defaultValue>
+      <defaultValue>'Test Product Draft Edit 1'</defaultValue>
       <description></description>
       <id>5e0b7080-eca9-4ff2-84a0-bd1dc47e35a0</id>
       <name>Title_Edit</name>
    </variable>
    <variable>
-      <defaultValue>'This is a Draft Edit Test'</defaultValue>
+      <defaultValue>'This is a Product Draft Edit Test'</defaultValue>
       <description></description>
       <id>497741f0-9f31-4fb9-a3f8-2de4facd9c74</id>
       <name>Text_Edit</name>

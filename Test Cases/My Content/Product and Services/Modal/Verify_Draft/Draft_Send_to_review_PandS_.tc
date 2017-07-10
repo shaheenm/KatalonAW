@@ -18,13 +18,13 @@
       <name>Text_Add</name>
    </variable>
    <variable>
-      <defaultValue>'Test Draft Edit 1'</defaultValue>
+      <defaultValue>'Test Product Draft Edit 1'</defaultValue>
       <description></description>
       <id>f0553021-18af-4882-9bcf-961c2812c91c</id>
       <name>Title_Edit</name>
    </variable>
    <variable>
-      <defaultValue>'This is a Draft Edit Test'</defaultValue>
+      <defaultValue>'This is a Product Draft Edit Test'</defaultValue>
       <description></description>
       <id>8bd01f16-447e-416d-8de9-fc03bec45b2c</id>
       <name>Text_Edit</name>

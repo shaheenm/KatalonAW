@@ -25,13 +25,21 @@ WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website')
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Products  Services'))
+
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    4)
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 2)
+WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    4)
 
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
+
+WebUI.check(findTestObject('Page_Products  Services  junetest2b/input_field_link_to_pagevalue_Checkbox'))
+
+WebUI.click(findTestObject('Page_Products  Services  junetest2b/select_field_icon_Selection'))
 
 WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
@@ -40,6 +48,8 @@ WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
+
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Products  Services'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Delete'))
 
@@ -54,6 +64,8 @@ WebUI.verifyElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/
 WebUI.waitForPageLoad(2)
 
 Preview_Url = WebUI.getUrl()
+
+WebUI.waitForPageLoad(2)
 
 WebUI.verifyMatch(('https://' + GlobalVariable.Username) + '-dev.force1.awdev.ca/dashboard/preview#/', Preview_Url, true)
 
