@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pages" time="384" tests="2" failures="8" errors="0">
+   <testsuite name="Pages" tests="2" failures="8" errors="0" time="384" timestamp="2017-07-17 12:26:21" hostname="Andy - Cindy-AW" id="Test Suites/Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617"/>
+         <property name="logFiles" value="C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319698439.png, C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319731159.png, C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319763899.png, C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319796558.png, C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319828921.png, C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319861645.png, C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319894619.png, C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319927951.png"/>
+         <property name="hostName" value="Andy - Cindy-AW"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.7.0.2"/>
+         <property name="browser" value="Chrome 59.0.3071.115"/>
+         <property name="hostAddress" value="192.168.1.211"/>
+         <property name="sessionId" value="85a353f24d428795037f65d16e0f51ba"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/My Content/Global TestCases/Login Via Website" classname="Test Cases/My Content/Global TestCases/Login Via Website" status="PASSED">
+         <system-out><![CDATA[2017-07-17 12:26:22 - [TEST_CASE][PASSED] - Test Cases/My Content/Global TestCases/Login Via Website: Test Cases/My Content/Global TestCases/Login Via Website
+
+2017-07-17 12:26:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-07-17 12:26:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-07-17 12:26:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://releasetestjuly18a.force1.awdev.ca/user' successfully
+
+2017-07-17 12:26:34 - [MESSAGE][PASSED] - Navigate to 'http://releasetestjuly18a.force1.awdev.ca/user' successfully
+
+2017-07-17 12:26:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-07-17 12:26:35 - [MESSAGE][PASSED] - Current window maximized
+
+2017-07-17 12:26:35 - [TEST_STEP][PASSED] - setText: Text 'releasetestjuly18a' is set on object 'Object Repository/Page_Log in  AW Force/input_name_Username'
+
+2017-07-17 12:26:36 - [MESSAGE][PASSED] - Text 'releasetestjuly18a' is set on object 'Object Repository/Page_Log in  AW Force/input_name_Username'
+
+2017-07-17 12:26:36 - [TEST_STEP][PASSED] - setText: Text 'welcome' is set on object 'Object Repository/Page_Log in  AW Force/input_pass_Password'
+
+2017-07-17 12:26:36 - [MESSAGE][PASSED] - Text 'welcome' is set on object 'Object Repository/Page_Log in  AW Force/input_pass_Password'
+
+2017-07-17 12:26:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in  AW Force/input_op_Submit' is clicked on
+
+2017-07-17 12:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in  AW Force/input_op_Submit' is clicked on
+
+2017-07-17 12:26:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-07-17 12:26:44 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add" classname="Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-17 12:26:44 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add: Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add FAILED because (of) Unable to get text of object 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' located by 'By.xpath: //span[count(. | id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"]) = count(id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"])]' not found)
+
+2017-07-17 12:26:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-17 12:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-17 12:27:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-07-17 12:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-07-17 12:27:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is not present after 2 second(s)
+
+2017-07-17 12:27:08 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is not present after 2 second(s)
+
+2017-07-17 12:27:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-17 12:27:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-17 12:27:09 - [TEST_STEP][PASSED] - setText: Text 'Test Draft 1' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-07-17 12:27:10 - [MESSAGE][PASSED] - Text 'Test Draft 1' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-07-17 12:27:10 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'
+
+2017-07-17 12:27:10 - [TEST_STEP][PASSED] - setText: Text 'This is a Draft Test' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/p'
+
+2017-07-17 12:27:11 - [MESSAGE][PASSED] - Text 'This is a Draft Test' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/p'
+
+2017-07-17 12:27:11 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-07-17 12:27:11 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Pages  junetest2bda/Modal/button_SaveasDraft' is clickable
+
+2017-07-17 12:27:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/button_SaveasDraft' is clickable
+
+2017-07-17 12:27:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/Modal/button_SaveasDraft' is clicked on
+
+2017-07-17 12:27:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/Modal/button_SaveasDraft' is clicked on
+
+2017-07-17 12:27:47 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-07-17 12:27:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-07-17 12:27:47 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Preview  junetest2bda/iframe_website-preview'
+
+2017-07-17 12:27:47 - [TEST_STEP][FAILED] - Statement - actual_title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Preview  junetest2bda/span_Test Draft 1)): Unable to get text of object 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' located by 'By.xpath: //span[count(. | id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"]) = count(id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"])]' not found)
+
+2017-07-17 12:28:19 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' located by 'By.xpath: //span[count(. | id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"]) = count(id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"])]' not found)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319698439.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-17 12:26:44 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add: Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add FAILED because (of) Unable to get text of object 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' located by 'By.xpath: //span[count(. | id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"]) = count(id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Edit1" classname="Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Edit1" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-17 12:28:19 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Edit1: Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Edit1 FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:28:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:28:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319731159.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-17 12:28:19 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Edit1: Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Edit1 FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add_Delete" classname="Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add_Delete" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-17 12:28:51 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add_Delete: Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add_Delete FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:28:52 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:29:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319763899.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-17 12:28:51 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add_Delete: Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add_Delete FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add" classname="Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-17 12:29:24 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add: Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:29:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:29:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319796558.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-17 12:29:24 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add: Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add" classname="Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-17 12:29:57 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add: Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:29:57 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:30:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319828921.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-17 12:29:57 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add: Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Edit" classname="Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Edit" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-17 12:30:29 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Edit: Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Edit FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:30:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:31:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319861645.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-17 12:30:29 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Edit: Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Edit FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add_Delete" classname="Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add_Delete" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-17 12:31:02 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add_Delete: Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add_Delete FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:31:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:31:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319894619.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-17 12:31:02 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add_Delete: Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add_Delete FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/CloseModal_AddPagetoDelete" classname="Test Cases/My Content/Pages/CloseModal_AddPagetoDelete" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-17 12:31:35 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/CloseModal_AddPagetoDelete: Test Cases/My Content/Pages/CloseModal_AddPagetoDelete FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:31:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+
+2017-07-17 12:32:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Pages\\20170717_122617\\1500319927951.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-17 12:31:35 - [TEST_CASE][FAILED] - Test Cases/My Content/Pages/CloseModal_AddPagetoDelete: Test Cases/My Content/Pages/CloseModal_AddPagetoDelete FAILED because (of) Unable to click on object 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' located by 'By.xpath: //a[count(. | //*[@id="block-aw-dashboard-main-menu"]/a[2]) = count(//*[@id="block-aw-dashboard-main-menu"]/a[2])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/close Modals" classname="Test Cases/My Content/Pages/Modal/close Modals" status="PASSED">
+         <system-out><![CDATA[2017-07-17 12:32:11 - [TEST_CASE][PASSED] - Test Cases/My Content/Pages/Modal/close Modals: Test Cases/My Content/Pages/Modal/close Modals
+
+2017-07-17 12:32:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-17 12:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-17 12:32:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-07-17 12:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-07-17 12:32:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-17 12:32:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-17 12:32:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-17 12:32:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-17 12:32:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title' is present
+
+2017-07-17 12:32:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title' is present
+
+2017-07-17 12:32:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/Modal/Button_Close' is clicked on
+
+2017-07-17 12:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/Modal/Button_Close' is clicked on
+
+2017-07-17 12:32:44 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' located by 'By.xpath: //div[count(. | //*[@class = 'ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons']) = count(//*[@class = 'ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons'])]' is not present after '2' second(s)
+
+2017-07-17 12:32:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' located by 'By.xpath: //div[count(. | //*[@class = 'ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons']) = count(//*[@class = 'ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons'])]' is not present after '2' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-07-17 12:26:21 - [TEST_SUITE][FAILED] - Pages: Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add FAILED because (of) Unable to get text of object 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' located by 'By.xpath: //span[count(. | id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"]) = count(id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-07-17 12:26:21 - [TEST_SUITE][FAILED] - Pages: Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add FAILED because (of) Unable to get text of object 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' located by 'By.xpath: //span[count(. | id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"]) = count(id("block-pagetitle")/div[@class="page-title--background"]/div[@class="row"]/div[@class="column"]/h1[@class="js-quickedit-page-title"]/span[@class="field-wrapper quickedit-field"])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

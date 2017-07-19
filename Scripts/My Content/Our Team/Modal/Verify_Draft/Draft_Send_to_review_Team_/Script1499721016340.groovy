@@ -21,8 +21,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))
@@ -43,7 +41,5 @@ WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-WebUI.verifyTextPresent(Title_Edit, true)
-
-WebUI.closeBrowser()
+not_run: WebUI.verifyTextPresent(Title_Edit, true)
 

@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Pages,Chrome 59.0.3071.115,,2017-07-18 10:43:33,2017-07-18 10:45:06,1m - 32.659s,FAILED
+,,,,,,
+Test Cases/My Content/Global TestCases/Login Via Website,Chrome 59.0.3071.115,"Switch Between \""Login Via Website\"" and \""Login Via Accounts\""",2017-07-18 10:43:35,2017-07-18 10:44:10,35.579s,PASSED
+openBrowser,Chrome 59.0.3071.115,,2017-07-18 10:43:37,2017-07-18 10:43:51,14.326s,PASSED
+navigateToUrl,Chrome 59.0.3071.115,,2017-07-18 10:43:51,2017-07-18 10:44:01,10.168s,PASSED
+maximizeWindow,Chrome 59.0.3071.115,,2017-07-18 10:44:01,2017-07-18 10:44:02,1.380s,PASSED
+setText,Chrome 59.0.3071.115,,2017-07-18 10:44:02,2017-07-18 10:44:05,3.004s,PASSED
+setText,Chrome 59.0.3071.115,,2017-07-18 10:44:05,2017-07-18 10:44:06,0.507s,PASSED
+click,Chrome 59.0.3071.115,,2017-07-18 10:44:06,2017-07-18 10:44:10,4.028s,PASSED
+waitForPageLoad,Chrome 59.0.3071.115,,2017-07-18 10:44:10,2017-07-18 10:44:10,0.176s,PASSED
+,,,,,,
+Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add,Chrome 59.0.3071.115,,2017-07-18 10:44:10,2017-07-18 10:44:43,32.475s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:44:11,2017-07-18 10:44:43,31.746s,FAILED
+,,,,,,
+Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Edit1,Chrome 59.0.3071.115,,2017-07-18 10:44:43,2017-07-18 10:45:01,17.885s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:44:43,2017-07-18 10:45:01,17.208s,FAILED
+,,,,,,
+Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add_Delete,Chrome 59.0.3071.115,,2017-07-18 10:45:01,2017-07-18 10:45:01,0.621s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:01,2017-07-18 10:45:01,0.031s,FAILED
+,,,,,,
+Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add,Chrome 59.0.3071.115,,2017-07-18 10:45:01,2017-07-18 10:45:02,0.610s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:02,2017-07-18 10:45:02,0.060s,FAILED
+,,,,,,
+Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add,Chrome 59.0.3071.115,,2017-07-18 10:45:02,2017-07-18 10:45:02,0.237s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:02,2017-07-18 10:45:02,0.117s,FAILED
+,,,,,,
+Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Edit,Chrome 59.0.3071.115,,2017-07-18 10:45:02,2017-07-18 10:45:03,0.528s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:03,2017-07-18 10:45:03,0.042s,FAILED
+,,,,,,
+Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add_Delete,Chrome 59.0.3071.115,,2017-07-18 10:45:03,2017-07-18 10:45:04,0.568s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:04,2017-07-18 10:45:04,0.036s,FAILED
+,,,,,,
+Test Cases/My Content/Pages/CloseModal_AddPagetoDelete,Chrome 59.0.3071.115,,2017-07-18 10:45:04,2017-07-18 10:45:04,0.259s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:04,2017-07-18 10:45:04,0.025s,FAILED
+,,,,,,
+Test Cases/My Content/Pages/Modal/close Modals,Chrome 59.0.3071.115,,2017-07-18 10:45:04,2017-07-18 10:45:04,0.348s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:04,2017-07-18 10:45:04,0.017s,FAILED

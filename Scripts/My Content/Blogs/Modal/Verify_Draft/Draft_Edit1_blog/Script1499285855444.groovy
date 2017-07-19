@@ -21,8 +21,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'))
@@ -49,8 +47,8 @@ WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/butt
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
-'Click to Design Tab\r\n'
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft 1'))
+'Click to Design Tab\\r\\n'
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Other'))
 
 WebUI.waitForPageLoad(2)
 
@@ -58,11 +56,7 @@ WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-pr
 
 actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
 
-WebUI.verifyMatch(actual_title, 'TEST DRAFT EDIT 1', true)
+WebUI.verifyMatch(actual_title, 'TEST BLOG DRAFT EDIT 1', true)
 
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
-
-WebUI.verifyMatch(actual_text, 'This is a Draft Edit Test', true)
-
-WebUI.closeBrowser()
+WebUI.switchToDefaultContent()
 

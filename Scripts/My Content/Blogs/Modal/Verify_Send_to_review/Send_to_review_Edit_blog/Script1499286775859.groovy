@@ -21,8 +21,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'))
@@ -37,7 +35,7 @@ WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui
 
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title_Edit)
 
-WebUI.setText(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'), Tags_Edit)
+WebUI.setText(findTestObject('Page_Blogs junetest2bda/input_field_tagstarget_id_Tags'), Tags_Edit)
 
 WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
 
@@ -49,8 +47,8 @@ WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/butt
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
-'Click to Design Tab\r\n'
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft 1'))
+'Click to Design Tab\\r\\n'
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Other'))
 
 WebUI.waitForPageLoad(2)
 
@@ -58,15 +56,13 @@ WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-pr
 
 actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
 
-WebUI.verifyMatch(actual_title, 'Test Blog Send to Review Edit 1', true)
+WebUI.verifyMatch(actual_title, 'TEST BLOG SEND TO REVIEW EDIT 1', true)
 
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
-
-WebUI.verifyMatch(actual_text, 'Send to view page is edited', true)
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-WebUI.verifyTextPresent(Title_Edit, true)
+not_run: WebUI.verifyTextPresent(Title_Edit, true)
 
-WebUI.closeBrowser()
+not_run: WebUI.switchToDefaultContent()
 

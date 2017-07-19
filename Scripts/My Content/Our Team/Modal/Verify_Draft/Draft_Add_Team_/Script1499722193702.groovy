@@ -21,8 +21,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))
@@ -30,7 +28,7 @@ WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
 
 WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
-    2)
+    5)
 
 WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     2)
@@ -53,6 +51,14 @@ WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_phone0valu
 
 WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_skype0value'), Skype)
 
+String TeamMemberWeightValue = GlobalVariable.TeamMemberWeight
+
+WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_weight0value'), TeamMemberWeightValue)
+
+GlobalVariable.TeamMemberWeight -= 1
+
+println(GlobalVariable.TeamMemberWeight)
+
 WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
 
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text)
@@ -67,13 +73,25 @@ WebUI.waitForPageLoad(2)
 
 WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
 
-actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
+WebUI.verifyElementText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'), 'TEST TEAM DRAFT 1')
 
-WebUI.verifyMatch(actual_title, 'TEST TEAM DRAFT 1', true)
+not_run: WebUI.verifyElementText(findTestObject('Page_Preview  junetest2bda/p_This is a Team Draft Test'), Text, FailureHandling.STOP_ON_FAILURE)
 
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
+WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/a_123-123-1322'), 1)
 
-WebUI.verifyMatch(actual_text, 'This is a Team Draft Test', true)
+WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/a_nameexample.com'), 1)
 
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/div_CPA CFFA'), 1)
+
+WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/div_Financial Advisor'), 1)
+
+WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/i_fi-social-facebook'), 1)
+
+WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/i_fi-social-linkedin'), 1)
+
+WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/i_fi-social-skype'), 1)
+
+WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/i_fi-social-twitter'), 1)
+
+WebUI.switchToDefaultContent()
 

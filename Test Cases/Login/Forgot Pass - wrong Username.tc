@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Forgot Pass - wrong Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76aff673-1ae6-41f2-9a4f-6964039787d7</testCaseGuid>
+</TestCaseEntity>

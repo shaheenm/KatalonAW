@@ -4,12 +4,12 @@
    <tag></tag>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'junetest2bda.force1.awdev.ca/user'</initValue>
+      <initValue>'releasetestjuly20a.force1.awdev.ca/user'</initValue>
       <name>Website</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'junetest2bda'</initValue>
+      <initValue>'releasetestjuly20a'</initValue>
       <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -19,7 +19,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'shaccounts.force1.awdev.ca/user'</initValue>
+      <initValue>'accounts.force1.awdev.ca/user'</initValue>
       <name>Account</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>TeamMemberWeight</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

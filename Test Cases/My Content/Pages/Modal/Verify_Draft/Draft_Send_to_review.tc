@@ -9,24 +9,28 @@
       <defaultValue>'Test Draft 1'</defaultValue>
       <description></description>
       <id>5c3f0a12-5a17-4f2b-bd94-104c69c2ba7f</id>
+      <masked>false</masked>
       <name>Title_Add</name>
    </variable>
    <variable>
       <defaultValue>'This is a Draft Test'</defaultValue>
       <description></description>
       <id>d428bdf8-13c9-4879-b0f6-7d649580f4e4</id>
+      <masked>false</masked>
       <name>Text_Add</name>
    </variable>
    <variable>
       <defaultValue>'Test Draft Edit 1'</defaultValue>
       <description></description>
       <id>11c2a0ce-fab1-41c1-bc36-618395081e9a</id>
+      <masked>false</masked>
       <name>Title_Edit</name>
    </variable>
    <variable>
       <defaultValue>'This is a Draft Edit Test'</defaultValue>
       <description></description>
       <id>25935ca7-c1af-4499-9005-5e6f18daf855</id>
+      <masked>false</masked>
       <name>Text_Edit</name>
    </variable>
 </TestCaseEntity>

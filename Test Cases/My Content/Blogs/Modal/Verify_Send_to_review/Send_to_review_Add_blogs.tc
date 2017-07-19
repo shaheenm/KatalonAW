@@ -9,18 +9,21 @@
       <defaultValue>'Test Blog Send to Review 1'</defaultValue>
       <description></description>
       <id>72328773-8452-47bd-9753-51913407afb5</id>
+      <masked>false</masked>
       <name>Title</name>
    </variable>
    <variable>
       <defaultValue>'This page is directly sent to review'</defaultValue>
       <description></description>
       <id>48f1bd2c-b663-4589-81e8-c827b129a56d</id>
+      <masked>false</masked>
       <name>Text</name>
    </variable>
    <variable>
       <defaultValue>'ItemPub1'</defaultValue>
       <description></description>
       <id>4c2feb2c-8fd7-42f4-aa79-be2ab066d9a9</id>
+      <masked>false</masked>
       <name>Tags</name>
    </variable>
 </TestCaseEntity>

@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
@@ -53,6 +53,12 @@ WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_phone0valu
 
 WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_skype0value'), Skype)
 
+String TeamMemberWeightValue = GlobalVariable.TeamMemberWeight
+
+WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_weight0value'), TeamMemberWeightValue)
+
+GlobalVariable.TeamMemberWeight -= 1
+
 WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
@@ -79,7 +85,7 @@ WebUI.verifyElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-WebUI.verifyTextNotPresent(Title, true)
+not_run: WebUI.verifyTextNotPresent(Title, false)
 
-WebUI.closeBrowser()
+WebUI.switchToDefaultContent()
 

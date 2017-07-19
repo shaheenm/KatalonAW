@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_nameexample.com</name>
+   <tag></tag>
+   <elementGuidId>4d7fd853-faca-4c39-bcc0-bb3965500777</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;node-1076&quot;)/div[@class=&quot;view-mode-full info&quot;]/div[@class=&quot;member-description&quot;]/div[@class=&quot;field-wrapper field field-node--field-email field-name-field-email field-type-email field-label-hidden quickedit-field&quot;]/div[@class=&quot;field-items&quot;]/div[@class=&quot;field-item&quot;]/a[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>mailto:name@example.com</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>name@example.com</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Preview  junetest2bda/iframe_website-preview</value>
+   </webElementProperties>
+</WebElementEntity>

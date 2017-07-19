@@ -4,7 +4,7 @@
    <name>Pages</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-07-05T14:27:45</lastRun>
+   <lastRun>2017-07-18T10:48:11</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,28 +12,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>640c12f0-6684-43fe-a069-0fa8a037b522</testSuiteGuid>
    <testCaseLink>
-      <guid>1a4f89e3-711e-4834-be82-1dabcb3442ea</guid>
+      <guid>7a42e904-f946-4c34-8c1c-46fb5824e5dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Pages/CloseModal_AddPagetoDelete</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ce514531-1e3c-4db1-bc94-29caf1838f35</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6a386514-21e6-447d-a9ac-6174fdc281e5</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9e5f5a37-e3b1-49b1-9ae4-eef335bc2926</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Pages/Modal/close Modals</testCaseId>
+      <testCaseId>Test Cases/Login/Login Via Website</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7e6d2aac-ffc2-4546-8fef-8729ea82ca97</guid>
@@ -105,30 +87,18 @@
       <guid>01d09b26-6325-4e27-b619-a5e933297045</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Send_to_review</testCaseId>
+      <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5c3f0a12-5a17-4f2b-bd94-104c69c2ba7f</variableId>
+         <variableId>b178555d-07d3-42c1-9806-051dbb2f3a24</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d428bdf8-13c9-4879-b0f6-7d649580f4e4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>11c2a0ce-fab1-41c1-bc36-618395081e9a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>25935ca7-c1af-4499-9005-5e6f18daf855</variableId>
+         <variableId>b07869a4-bea3-422b-89db-aa9fa3ccd15d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -196,5 +166,29 @@
          <value></value>
          <variableId>9d554f30-9de9-4c22-b7b9-7cc047ee9c50</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a4f89e3-711e-4834-be82-1dabcb3442ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Pages/CloseModal_AddPagetoDelete</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce514531-1e3c-4db1-bc94-29caf1838f35</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a386514-21e6-447d-a9ac-6174fdc281e5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9e5f5a37-e3b1-49b1-9ae4-eef335bc2926</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Pages/Modal/close Modals</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

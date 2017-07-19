@@ -6,21 +6,24 @@
    <comment></comment>
    <testCaseGuid>b64cd8f6-435a-45ba-b11f-c9ad0221aa85</testCaseGuid>
    <variable>
-      <defaultValue>'Test Blog Draft 1'</defaultValue>
+      <defaultValue>'Test Blog Delete Draft 1'</defaultValue>
       <description></description>
       <id>776f577c-6a34-477f-8adc-c9b2835b6b81</id>
+      <masked>false</masked>
       <name>Title</name>
    </variable>
    <variable>
       <defaultValue>'This is a Blog Draft Test'</defaultValue>
       <description></description>
       <id>5e52122a-b866-4371-bf04-0db4b346ff80</id>
+      <masked>false</masked>
       <name>Text</name>
    </variable>
    <variable>
       <defaultValue>'Item1'</defaultValue>
       <description></description>
       <id>fa42c8be-1e2f-40fc-91c1-1ed8885236b7</id>
+      <masked>false</masked>
       <name>Tags</name>
    </variable>
 </TestCaseEntity>

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Team Members,Chrome 59.0.3071.115,,2017-07-18 10:43:34,2017-07-18 10:45:31,1m - 57.515s,FAILED
+,,,,,,
+Test Cases/My Content/Global TestCases/Login Via Website,Chrome 59.0.3071.115,"Switch Between \""Login Via Website\"" and \""Login Via Accounts\""",2017-07-18 10:43:35,2017-07-18 10:44:26,51.074s,PASSED
+openBrowser,Chrome 59.0.3071.115,,2017-07-18 10:43:37,2017-07-18 10:43:51,13.435s,PASSED
+navigateToUrl,Chrome 59.0.3071.115,,2017-07-18 10:43:51,2017-07-18 10:44:01,10.071s,PASSED
+maximizeWindow,Chrome 59.0.3071.115,,2017-07-18 10:44:01,2017-07-18 10:44:02,1.572s,PASSED
+setText,Chrome 59.0.3071.115,,2017-07-18 10:44:02,2017-07-18 10:44:05,2.912s,PASSED
+setText,Chrome 59.0.3071.115,,2017-07-18 10:44:05,2017-07-18 10:44:06,0.483s,PASSED
+click,Chrome 59.0.3071.115,,2017-07-18 10:44:06,2017-07-18 10:44:26,20.170s,PASSED
+waitForPageLoad,Chrome 59.0.3071.115,,2017-07-18 10:44:26,2017-07-18 10:44:26,0.170s,PASSED
+,,,,,,
+Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_,Chrome 59.0.3071.115,,2017-07-18 10:44:26,2017-07-18 10:45:26,59.681s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:44:28,2017-07-18 10:45:01,33.469s,PASSED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:01,2017-07-18 10:45:18,16.618s,PASSED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:18,2017-07-18 10:45:26,8.202s,FAILED
+,,,,,,
+Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Edit_Team_,Chrome 59.0.3071.115,,2017-07-18 10:45:26,2017-07-18 10:45:27,0.558s,FAILED
+click,Chrome 59.0.3071.115,,2017-07-18 10:45:27,2017-07-18 10:45:27,0.020s,FAILED
+,,,,,,
+Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Delete_Team_,Chrome 59.0.3071.115,,2017-07-18 10:45:27,2017-07-18 10:45:31,4.404s,FAILED
+callTestCase,Chrome 59.0.3071.115,,2017-07-18 10:45:27,2017-07-18 10:45:31,3.945s,FAILED

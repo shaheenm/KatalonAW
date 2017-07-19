@@ -21,8 +21,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'))
@@ -37,7 +35,7 @@ WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui
 
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
 
-WebUI.setText(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'), Tags)
+WebUI.setText(findTestObject('Page_Blogs junetest2bda/input_field_tagstarget_id_Tags'), Tags)
 
 WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
 
@@ -57,13 +55,9 @@ actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Tes
 
 WebUI.verifyMatch(actual_title, 'TEST BLOG SEND TO REVIEW 1', true)
 
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
-
-WebUI.verifyMatch(actual_text, 'This page is directly sent to review', true)
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
 WebUI.verifyTextPresent(Title, true)
-
-WebUI.closeBrowser()
 

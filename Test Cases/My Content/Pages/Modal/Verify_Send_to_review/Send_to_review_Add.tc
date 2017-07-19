@@ -9,12 +9,14 @@
       <defaultValue>'Test Send to Review 1'</defaultValue>
       <description></description>
       <id>b178555d-07d3-42c1-9806-051dbb2f3a24</id>
+      <masked>false</masked>
       <name>Title</name>
    </variable>
    <variable>
       <defaultValue>'This page is directly sent to review'</defaultValue>
       <description></description>
       <id>b07869a4-bea3-422b-89db-aa9fa3ccd15d</id>
+      <masked>false</masked>
       <name>Text</name>
    </variable>
 </TestCaseEntity>

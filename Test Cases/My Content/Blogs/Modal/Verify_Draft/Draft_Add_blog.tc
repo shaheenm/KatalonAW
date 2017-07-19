@@ -9,18 +9,21 @@
       <defaultValue>'Test Blog Draft 1'</defaultValue>
       <description></description>
       <id>fc653a58-a2ae-4c42-a6f5-fa94c5619bf4</id>
+      <masked>false</masked>
       <name>Title</name>
    </variable>
    <variable>
       <defaultValue>'This is a BlogDraft Test'</defaultValue>
       <description></description>
       <id>fb8c4aac-01bd-450d-9806-be5e731eacbd</id>
+      <masked>false</masked>
       <name>Text</name>
    </variable>
    <variable>
       <defaultValue>'Item1'</defaultValue>
       <description></description>
       <id>6c7bf817-c7d6-43f7-902b-0ebb606d0371</id>
+      <masked>false</masked>
       <name>Tags</name>
    </variable>
 </TestCaseEntity>

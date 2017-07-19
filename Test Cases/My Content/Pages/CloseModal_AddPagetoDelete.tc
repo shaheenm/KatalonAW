@@ -9,12 +9,14 @@
       <defaultValue>'Test Draft 1 Delete'</defaultValue>
       <description></description>
       <id>ce514531-1e3c-4db1-bc94-29caf1838f35</id>
+      <masked>false</masked>
       <name>Title</name>
    </variable>
    <variable>
       <defaultValue>'This is a Draft Delete and Close'</defaultValue>
       <description></description>
       <id>6a386514-21e6-447d-a9ac-6174fdc281e5</id>
+      <masked>false</masked>
       <name>Text</name>
    </variable>
 </TestCaseEntity>

@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.eclipse.jdt.internal.compiler.flow.FinallyFlowContext as FinallyFlowContext
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 

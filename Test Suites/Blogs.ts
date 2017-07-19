@@ -4,6 +4,7 @@
    <name>Blogs</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2017-07-18T10:48:11</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -11,28 +12,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>34a3eca5-2fa1-42f1-b018-e5cb2d3ec861</testSuiteGuid>
    <testCaseLink>
-      <guid>16609a20-f2f4-4995-b914-30ee95bb600a</guid>
+      <guid>9b635b82-97c7-418a-b271-1d7a6978c0a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/CloseModal_AddBlogtoDelete</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>effd9554-6bd8-4edb-a814-3d5d620c1e06</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>946c50e1-953f-45e5-9f4a-dc22b0809414</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>91d77610-85dd-4461-9a63-6a262e70b352</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/Modal/close Modals Blog</testCaseId>
+      <testCaseId>Test Cases/Login/Login Via Website</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>babc1301-04b4-474e-bddf-df10646c8a71</guid>
@@ -237,5 +220,29 @@
          <value></value>
          <variableId>6529358f-366f-4309-bdd8-3c153a618a71</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>16609a20-f2f4-4995-b914-30ee95bb600a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Blogs/CloseModal_AddBlogtoDelete</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>effd9554-6bd8-4edb-a814-3d5d620c1e06</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>946c50e1-953f-45e5-9f4a-dc22b0809414</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>91d77610-85dd-4461-9a63-6a262e70b352</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Blogs/Modal/close Modals Blog</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

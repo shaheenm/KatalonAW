@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;block-aw-dashboard-content&quot;]/div/div/div/div/table/tbody/tr[1]/td[1]/a[2]</value>
+      <value>id(&quot;block-aw-dashboard-content&quot;)/div[1]/div[1]/div[@class=&quot;view-content&quot;]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[2]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

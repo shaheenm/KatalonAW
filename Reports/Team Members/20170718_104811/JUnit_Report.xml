@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Team Members" time="259" tests="1" failures="2" errors="1">
+   <testsuite name="Team Members" tests="1" failures="2" errors="1" time="259" timestamp="2017-07-18 10:48:16" hostname="Andy - Cindy-AW" id="Test Suites/Team Members">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Team Members\\20170718_104811"/>
+         <property name="logFiles" value="C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Team Members\\20170718_104811\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Team Members\\20170718_104811\\1500400214945.png, C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Team Members\\20170718_104811\\1500400354623.png"/>
+         <property name="hostName" value="Andy - Cindy-AW"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.7.0.2"/>
+         <property name="browser" value="Chrome 59.0.3071.115"/>
+         <property name="hostAddress" value="192.168.1.211"/>
+         <property name="sessionId" value="3ed038740cdfd53910a508dcf15a166f"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/My Content/Global TestCases/Login Via Website" classname="Test Cases/My Content/Global TestCases/Login Via Website" status="PASSED">
+         <system-out><![CDATA[2017-07-18 10:48:17 - [TEST_CASE][PASSED] - Test Cases/My Content/Global TestCases/Login Via Website: Test Cases/My Content/Global TestCases/Login Via Website
+
+2017-07-18 10:48:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-07-18 10:48:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-07-18 10:48:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://releasetestjuly20a.force1.awdev.ca/user' successfully
+
+2017-07-18 10:48:36 - [MESSAGE][PASSED] - Navigate to 'http://releasetestjuly20a.force1.awdev.ca/user' successfully
+
+2017-07-18 10:48:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-07-18 10:48:37 - [MESSAGE][PASSED] - Current window maximized
+
+2017-07-18 10:48:37 - [TEST_STEP][PASSED] - setText: Text 'releasetestjuly20a' is set on object 'Object Repository/Page_Log in  AW Force/input_name_Username'
+
+2017-07-18 10:48:38 - [MESSAGE][PASSED] - Text 'releasetestjuly20a' is set on object 'Object Repository/Page_Log in  AW Force/input_name_Username'
+
+2017-07-18 10:48:38 - [TEST_STEP][PASSED] - setText: Text 'welcome' is set on object 'Object Repository/Page_Log in  AW Force/input_pass_Password'
+
+2017-07-18 10:48:39 - [MESSAGE][PASSED] - Text 'welcome' is set on object 'Object Repository/Page_Log in  AW Force/input_pass_Password'
+
+2017-07-18 10:48:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in  AW Force/input_op_Submit' is clicked on
+
+2017-07-18 10:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in  AW Force/input_op_Submit' is clicked on
+
+2017-07-18 10:48:47 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-07-18 10:48:47 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_" classname="Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-18 10:48:47 - [TEST_CASE][FAILED] - Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_: Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_ FAILED because (of) Unable to verify text 'Test Team Review Edit Draft 1' is present  using regular expression (Root cause: Text 'Test Team Review Edit Draft 1' is not present on page  using regular expression)
+
+2017-07-18 10:48:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-18 10:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-18 10:49:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/My Content Menu/a_Our Team' is clicked on
+
+2017-07-18 10:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/My Content Menu/a_Our Team' is clicked on
+
+2017-07-18 10:49:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-07-18 10:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-07-18 10:49:30 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is not present after 2 second(s)
+
+2017-07-18 10:49:32 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is not present after 2 second(s)
+
+2017-07-18 10:49:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:49:33 - [TEST_STEP][PASSED] - setText: Text 'Test Team Review Edit Draft 1' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-07-18 10:49:34 - [MESSAGE][PASSED] - Text 'Test Team Review Edit Draft 1' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-07-18 10:49:34 - [TEST_STEP][PASSED] - setText: Text 'Financial Advisor' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_designation0value'
+
+2017-07-18 10:49:34 - [MESSAGE][PASSED] - Text 'Financial Advisor' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_designation0value'
+
+2017-07-18 10:49:34 - [TEST_STEP][PASSED] - setText: Text 'name@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_email0value'
+
+2017-07-18 10:49:35 - [MESSAGE][PASSED] - Text 'name@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_email0value'
+
+2017-07-18 10:49:35 - [TEST_STEP][PASSED] - setText: Text 'CPA, CFFA' is set on object 'Object Repository/Page_Our Team  junetest2bda/textarea_field_role_title0valu'
+
+2017-07-18 10:49:35 - [MESSAGE][PASSED] - Text 'CPA, CFFA' is set on object 'Object Repository/Page_Our Team  junetest2bda/textarea_field_role_title0valu'
+
+2017-07-18 10:49:35 - [TEST_STEP][PASSED] - setText: Text 'http://www.facebook.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_facebook0uri'
+
+2017-07-18 10:49:35 - [MESSAGE][PASSED] - Text 'http://www.facebook.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_facebook0uri'
+
+2017-07-18 10:49:35 - [TEST_STEP][PASSED] - setText: Text 'http://www.linkedin.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_linkedin0uri'
+
+2017-07-18 10:49:36 - [MESSAGE][PASSED] - Text 'http://www.linkedin.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_linkedin0uri'
+
+2017-07-18 10:49:36 - [TEST_STEP][PASSED] - setText: Text 'http://www.twitter.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_twitter0uri'
+
+2017-07-18 10:49:36 - [MESSAGE][PASSED] - Text 'http://www.twitter.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_twitter0uri'
+
+2017-07-18 10:49:36 - [TEST_STEP][PASSED] - setText: Text '123-123-1322' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_phone0value'
+
+2017-07-18 10:49:36 - [MESSAGE][PASSED] - Text '123-123-1322' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_phone0value'
+
+2017-07-18 10:49:36 - [TEST_STEP][PASSED] - setText: Text 'skype@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_skype0value'
+
+2017-07-18 10:49:37 - [MESSAGE][PASSED] - Text 'skype@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_skype0value'
+
+2017-07-18 10:49:37 - [TEST_STEP][PASSED] - Statement - TeamMemberWeightValue = TeamMemberWeight: null
+
+2017-07-18 10:49:37 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_weight0value'
+
+2017-07-18 10:49:37 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_weight0value'
+
+2017-07-18 10:49:37 - [TEST_STEP][PASSED] - Statement - TeamMemberWeight -= 1: null
+
+2017-07-18 10:49:37 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'
+
+2017-07-18 10:49:37 - [TEST_STEP][PASSED] - setText: Text 'This is a Team Draft Test' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/p'
+
+2017-07-18 10:49:37 - [MESSAGE][PASSED] - Text 'This is a Team Draft Test' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/p'
+
+2017-07-18 10:49:37 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-07-18 10:49:37 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Pages  junetest2bda/Modal/button_SendtoReview' is clickable
+
+2017-07-18 10:49:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/button_SendtoReview' is clickable
+
+2017-07-18 10:49:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/Modal/button_SendtoReview' is clicked on
+
+2017-07-18 10:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/Modal/button_SendtoReview' is clicked on
+
+2017-07-18 10:50:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-07-18 10:50:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-07-18 10:50:14 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Preview  junetest2bda/iframe_website-preview'
+
+2017-07-18 10:50:14 - [TEST_STEP][PASSED] - Statement - actual_title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Preview  junetest2bda/span_Test Draft 1)): Text of object 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' is: 'TEST TEAM REVIEW EDIT DRAFT 1'
+
+2017-07-18 10:50:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Preview  junetest2bda/span_Test Draft 1' is: 'TEST TEAM REVIEW EDIT DRAFT 1'
+
+2017-07-18 10:50:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'TEST TEAM REVIEW EDIT DRAFT 1' and expected text 'TEST TEAM REVIEW EDIT DRAFT 1' are matched  using regular expression
+
+2017-07-18 10:50:14 - [MESSAGE][PASSED] - Actual text 'TEST TEAM REVIEW EDIT DRAFT 1' and expected text 'TEST TEAM REVIEW EDIT DRAFT 1' are matched  using regular expression
+
+2017-07-18 10:50:14 - [TEST_STEP][NOT_RUN] - Statement - actual_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Preview  junetest2bda/p_This is a Draft Test)): NOT_RUN: Statement - actual_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Preview  junetest2bda/p_This is a Draft Test))
+
+2017-07-18 10:50:14 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - actual_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Preview  junetest2bda/p_This is a Draft Test))
+
+2017-07-18 10:50:14 - [TEST_STEP][NOT_RUN] - verifyMatch: NOT_RUN: verifyMatch
+
+2017-07-18 10:50:14 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyMatch
+
+2017-07-18 10:50:14 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-07-18 10:50:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)' is clicked on
+
+2017-07-18 10:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)' is clicked on
+
+2017-07-18 10:50:14 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Test Team Review Edit Draft 1' is present  using regular expression (Root cause: Text 'Test Team Review Edit Draft 1' is not present on page  using regular expression)
+
+2017-07-18 10:50:14 - [MESSAGE][FAILED] - Text 'Test Team Review Edit Draft 1' is not present on page  using regular expression
+
+2017-07-18 10:50:15 - [MESSAGE][FAILED] - Unable to verify text 'Test Team Review Edit Draft 1' is present  using regular expression (Root cause: Text 'Test Team Review Edit Draft 1' is not present on page  using regular expression)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Team Members\\20170718_104811\\1500400214945.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-18 10:48:47 - [TEST_CASE][FAILED] - Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_: Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_ FAILED because (of) Unable to verify text 'Test Team Review Edit Draft 1' is present  using regular expression (Root cause: Text 'Test Team Review Edit Draft 1' is not present on page  using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Edit_Team_" classname="Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Edit_Team_" status="ERROR">
+         <error type="ERROR" message=""/>
+         <system-out><![CDATA[2017-07-18 10:50:15 - [TEST_CASE][ERROR] - Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Edit_Team_: Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Edit_Team_ FAILED because (of) Variable 'Text_Edit' is not defined for test case.
+
+2017-07-18 10:50:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-18 10:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-18 10:50:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/My Content Menu/a_Our Team' is clicked on
+
+2017-07-18 10:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/My Content Menu/a_Our Team' is clicked on
+
+2017-07-18 10:50:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/a_Edit' is clicked on
+
+2017-07-18 10:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/a_Edit' is clicked on
+
+2017-07-18 10:50:38 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:50:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:50:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:50:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:50:41 - [TEST_STEP][PASSED] - setText: Text 'Test Team Review Edit Draft 1' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-07-18 10:50:42 - [MESSAGE][PASSED] - Text 'Test Team Review Edit Draft 1' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-07-18 10:50:42 - [TEST_STEP][PASSED] - setText: Text 'Financial Advisor' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_designation0value'
+
+2017-07-18 10:50:43 - [MESSAGE][PASSED] - Text 'Financial Advisor' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_designation0value'
+
+2017-07-18 10:50:43 - [TEST_STEP][PASSED] - setText: Text 'name@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_email0value'
+
+2017-07-18 10:50:43 - [MESSAGE][PASSED] - Text 'name@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_email0value'
+
+2017-07-18 10:50:43 - [TEST_STEP][PASSED] - setText: Text 'CPA, CFFA' is set on object 'Object Repository/Page_Our Team  junetest2bda/textarea_field_role_title0valu'
+
+2017-07-18 10:50:44 - [MESSAGE][PASSED] - Text 'CPA, CFFA' is set on object 'Object Repository/Page_Our Team  junetest2bda/textarea_field_role_title0valu'
+
+2017-07-18 10:50:44 - [TEST_STEP][PASSED] - setText: Text 'http://www.facebook.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_facebook0uri'
+
+2017-07-18 10:50:44 - [MESSAGE][PASSED] - Text 'http://www.facebook.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_facebook0uri'
+
+2017-07-18 10:50:44 - [TEST_STEP][PASSED] - setText: Text 'http://www.linkedin.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_linkedin0uri'
+
+2017-07-18 10:50:45 - [MESSAGE][PASSED] - Text 'http://www.linkedin.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_linkedin0uri'
+
+2017-07-18 10:50:45 - [TEST_STEP][PASSED] - setText: Text 'http://www.twitter.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_twitter0uri'
+
+2017-07-18 10:50:45 - [MESSAGE][PASSED] - Text 'http://www.twitter.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_twitter0uri'
+
+2017-07-18 10:50:45 - [TEST_STEP][PASSED] - setText: Text '123-123-1322' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_phone0value'
+
+2017-07-18 10:50:46 - [MESSAGE][PASSED] - Text '123-123-1322' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_phone0value'
+
+2017-07-18 10:50:46 - [TEST_STEP][PASSED] - setText: Text 'skype@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_skype0value'
+
+2017-07-18 10:50:46 - [MESSAGE][PASSED] - Text 'skype@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_skype0value'
+
+2017-07-18 10:50:46 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'
+
+2017-07-18 10:50:46 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/Page_Pages  junetest2bda/Modal/p']]></system-out>
+         <system-err><![CDATA[2017-07-18 10:50:15 - [TEST_CASE][ERROR] - Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Edit_Team_: Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Edit_Team_ FAILED because (of) Variable 'Text_Edit' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Delete_Team_" classname="Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Delete_Team_" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-07-18 10:50:46 - [TEST_CASE][FAILED] - Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Delete_Team_: Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Delete_Team_ FAILED because (of) Unable to verify text 'Test Team Review Draft 1 Delete' is present  using regular expression (Root cause: Text 'Test Team Review Draft 1 Delete' is not present on page  using regular expression)
+
+2017-07-18 10:50:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/My Content/Global TestCases/Login Via Website' successfully
+
+2017-07-18 10:50:47 - [TEST_CASE][PASSED] - Test Cases/My Content/Global TestCases/Login Via Website: Test Cases/My Content/Global TestCases/Login Via Website
+
+2017-07-18 10:50:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-07-18 10:50:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-07-18 10:50:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-07-18 10:50:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://releasetestjuly20a.force1.awdev.ca/user' successfully
+
+2017-07-18 10:50:58 - [MESSAGE][PASSED] - Navigate to 'http://releasetestjuly20a.force1.awdev.ca/user' successfully
+
+2017-07-18 10:50:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-07-18 10:50:59 - [MESSAGE][PASSED] - Current window maximized
+
+2017-07-18 10:50:59 - [TEST_STEP][PASSED] - setText: Text 'releasetestjuly20a' is set on object 'Object Repository/Page_Log in  AW Force/input_name_Username'
+
+2017-07-18 10:50:59 - [MESSAGE][PASSED] - Text 'releasetestjuly20a' is set on object 'Object Repository/Page_Log in  AW Force/input_name_Username'
+
+2017-07-18 10:50:59 - [TEST_STEP][PASSED] - setText: Text 'welcome' is set on object 'Object Repository/Page_Log in  AW Force/input_pass_Password'
+
+2017-07-18 10:50:59 - [MESSAGE][PASSED] - Text 'welcome' is set on object 'Object Repository/Page_Log in  AW Force/input_pass_Password'
+
+2017-07-18 10:50:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in  AW Force/input_op_Submit' is clicked on
+
+2017-07-18 10:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in  AW Force/input_op_Submit' is clicked on
+
+2017-07-18 10:51:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-07-18 10:51:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-07-18 10:51:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/My Content/Global TestCases/Login Via Website' successfully
+
+2017-07-18 10:51:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-18 10:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-07-18 10:51:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/My Content Menu/a_Our Team' is clicked on
+
+2017-07-18 10:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/My Content Menu/a_Our Team' is clicked on
+
+2017-07-18 10:52:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-07-18 10:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-07-18 10:52:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:52:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-07-18 10:52:04 - [TEST_STEP][PASSED] - setText: Text 'Test Team Review Draft 1 Delete' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-07-18 10:52:04 - [MESSAGE][PASSED] - Text 'Test Team Review Draft 1 Delete' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-07-18 10:52:04 - [TEST_STEP][PASSED] - setText: Text 'Financial Advisor' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_designation0value'
+
+2017-07-18 10:52:05 - [MESSAGE][PASSED] - Text 'Financial Advisor' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_designation0value'
+
+2017-07-18 10:52:05 - [TEST_STEP][PASSED] - setText: Text 'name@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_email0value'
+
+2017-07-18 10:52:05 - [MESSAGE][PASSED] - Text 'name@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_email0value'
+
+2017-07-18 10:52:05 - [TEST_STEP][PASSED] - setText: Text 'CPA, CFFA' is set on object 'Object Repository/Page_Our Team  junetest2bda/textarea_field_role_title0valu'
+
+2017-07-18 10:52:05 - [MESSAGE][PASSED] - Text 'CPA, CFFA' is set on object 'Object Repository/Page_Our Team  junetest2bda/textarea_field_role_title0valu'
+
+2017-07-18 10:52:05 - [TEST_STEP][PASSED] - setText: Text 'http://www.facebook.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_facebook0uri'
+
+2017-07-18 10:52:05 - [MESSAGE][PASSED] - Text 'http://www.facebook.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_facebook0uri'
+
+2017-07-18 10:52:05 - [TEST_STEP][PASSED] - setText: Text 'http://www.linkedin.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_linkedin0uri'
+
+2017-07-18 10:52:06 - [MESSAGE][PASSED] - Text 'http://www.linkedin.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_linkedin0uri'
+
+2017-07-18 10:52:06 - [TEST_STEP][PASSED] - setText: Text 'http://www.twitter.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_twitter0uri'
+
+2017-07-18 10:52:06 - [MESSAGE][PASSED] - Text 'http://www.twitter.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_twitter0uri'
+
+2017-07-18 10:52:06 - [TEST_STEP][PASSED] - setText: Text '123-123-1322' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_phone0value'
+
+2017-07-18 10:52:07 - [MESSAGE][PASSED] - Text '123-123-1322' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_phone0value'
+
+2017-07-18 10:52:07 - [TEST_STEP][PASSED] - setText: Text 'skype@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_skype0value'
+
+2017-07-18 10:52:07 - [MESSAGE][PASSED] - Text 'skype@example.com' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_skype0value'
+
+2017-07-18 10:52:07 - [TEST_STEP][PASSED] - Statement - TeamMemberWeightValue = TeamMemberWeight: null
+
+2017-07-18 10:52:07 - [TEST_STEP][PASSED] - setText: Text '9' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_weight0value'
+
+2017-07-18 10:52:08 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Page_Our Team  junetest2bda/input_field_weight0value'
+
+2017-07-18 10:52:08 - [TEST_STEP][PASSED] - Statement - TeamMemberWeight -= 1: null
+
+2017-07-18 10:52:08 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Pages  junetest2bda/Modal/button_SendtoReview' is clickable
+
+2017-07-18 10:52:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/button_SendtoReview' is clickable
+
+2017-07-18 10:52:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/Modal/button_SendtoReview' is clicked on
+
+2017-07-18 10:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/Modal/button_SendtoReview' is clicked on
+
+2017-07-18 10:52:33 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-07-18 10:52:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-07-18 10:52:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)' is clicked on
+
+2017-07-18 10:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)' is clicked on
+
+2017-07-18 10:52:34 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Test Team Review Draft 1 Delete' is present  using regular expression (Root cause: Text 'Test Team Review Draft 1 Delete' is not present on page  using regular expression)
+
+2017-07-18 10:52:34 - [MESSAGE][FAILED] - Text 'Test Team Review Draft 1 Delete' is not present on page  using regular expression
+
+2017-07-18 10:52:35 - [MESSAGE][FAILED] - Unable to verify text 'Test Team Review Draft 1 Delete' is present  using regular expression (Root cause: Text 'Test Team Review Draft 1 Delete' is not present on page  using regular expression)
+[[ATTACHMENT|C:\\Users\\Cindy\\Katalon Studio\\MyContent\\Reports\\Team Members\\20170718_104811\\1500400354623.png]]]]></system-out>
+         <system-err><![CDATA[2017-07-18 10:50:46 - [TEST_CASE][FAILED] - Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Delete_Team_: Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Delete_Team_ FAILED because (of) Unable to verify text 'Test Team Review Draft 1 Delete' is present  using regular expression (Root cause: Text 'Test Team Review Draft 1 Delete' is not present on page  using regular expression)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-07-18 10:48:16 - [TEST_SUITE][FAILED] - Team Members: Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_ FAILED because (of) Unable to verify text 'Test Team Review Edit Draft 1' is present  using regular expression (Root cause: Text 'Test Team Review Edit Draft 1' is not present on page  using regular expression)]]></system-out>
+      <system-err><![CDATA[2017-07-18 10:48:16 - [TEST_SUITE][FAILED] - Team Members: Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_ FAILED because (of) Unable to verify text 'Test Team Review Edit Draft 1' is present  using regular expression (Root cause: Text 'Test Team Review Edit Draft 1' is not present on page  using regular expression)]]></system-err>
+   </testsuite>
+</testsuites>

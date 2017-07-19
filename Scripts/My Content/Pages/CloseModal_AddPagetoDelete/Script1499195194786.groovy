@@ -21,8 +21,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
@@ -62,6 +60,4 @@ WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/butto
 
 WebUI.waitForElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/div_ui-dialog ui-widget ui-wid'), 
     1)
-
-WebUI.closeBrowser()
 

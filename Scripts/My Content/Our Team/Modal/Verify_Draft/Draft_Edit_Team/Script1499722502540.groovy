@@ -21,8 +21,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Global TestCases/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))
@@ -35,7 +33,7 @@ WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_u
 WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     2)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title_Edit)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
 
 WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_designation0value'), Designation)
 
@@ -55,7 +53,7 @@ WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_skype0valu
 
 WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text_Edit)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text)
 
 WebUI.switchToDefaultContent()
 
@@ -63,20 +61,34 @@ WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/butt
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
-'Click to Design Tab\r\n'
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft 1'))
+'Click to Design Tab\\r\\n'
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Other'))
 
 WebUI.waitForPageLoad(2)
 
 WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
 
-actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
+WebUI.verifyElementText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'), 'TEST TEAM EDIT DRAFT 1')
 
-WebUI.verifyMatch(actual_title, 'TEST TEAM DRAFT 1', true)
+not_run: WebUI.verifyElementText(findTestObject('Page_Preview  junetest2bda/p_This is a Team Draft Test'), 'This is a Team Edit Draft Test')
 
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
+not_run: WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/a_123-123-1322'), 1)
 
-WebUI.verifyMatch(actual_text, 'This is a Team Draft Test', true)
+not_run: WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/a_nameexample.com'), 1)
 
-WebUI.closeBrowser()
+not_run: WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/div_CPA CFFA'), 1)
+
+not_run: WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/div_Financial Advisor'), 1)
+
+not_run: WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/i_fi-social-facebook'), 1)
+
+not_run: WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/i_fi-social-linkedin'), 1)
+
+not_run: WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/i_fi-social-skype'), 1)
+
+not_run: WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/i_fi-social-twitter'), 1)
+
+WebUI.switchToDefaultContent()
+
+println(GlobalVariable.TeamMemberWeight)
 

@@ -9,30 +9,35 @@
       <defaultValue>'Test Blog Draft 1'</defaultValue>
       <description></description>
       <id>d4f9a2e0-6b32-4b6c-bfa4-00e92d8aa893</id>
+      <masked>false</masked>
       <name>Title_Add</name>
    </variable>
    <variable>
       <defaultValue>'This is a Blog Draft Test'</defaultValue>
       <description></description>
       <id>de48ef81-d6e0-49cd-9394-14e1e8336362</id>
+      <masked>false</masked>
       <name>Text_Add</name>
    </variable>
    <variable>
       <defaultValue>'Test Blog Draft Edit 1'</defaultValue>
       <description></description>
       <id>1085dbb7-ed30-47b1-8236-a5a838a561c2</id>
+      <masked>false</masked>
       <name>Title_Edit</name>
    </variable>
    <variable>
       <defaultValue>'This is a Blog Draft Edit Test'</defaultValue>
       <description></description>
       <id>a32b9b0b-287b-42c4-b739-ca2af3757c5d</id>
+      <masked>false</masked>
       <name>Text_Edit</name>
    </variable>
    <variable>
       <defaultValue>'Item1, Item2'</defaultValue>
       <description></description>
       <id>bc5114f9-6358-4749-a187-a2cb0646402a</id>
+      <masked>false</masked>
       <name>Tags_Edit</name>
    </variable>
 </TestCaseEntity>
