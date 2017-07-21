@@ -40,30 +40,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Edit1</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>db4121eb-cda3-44f7-bbbc-e9d83dcc5826</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>34d3a66d-21de-44cd-be3e-06dbbee58860</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>38693a0d-9f44-437a-adec-3cb5bfb10e12</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e5f4605c-3384-4e88-bbd7-8f57afb49209</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>1d475552-20d5-4d88-9e88-75ee5b6cccf3</guid>
@@ -171,7 +147,7 @@
       <guid>1a4f89e3-711e-4834-be82-1dabcb3442ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Pages/CloseModal_AddPagetoDelete</testCaseId>
+      <testCaseId>Test Cases/My Content/Pages/Modal/CloseModal_AddPagetoDelete</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -189,6 +165,6 @@
       <guid>9e5f5a37-e3b1-49b1-9ae4-eef335bc2926</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Pages/Modal/close Modals</testCaseId>
+      <testCaseId>Test Cases/My Content/Pages/Modal/close Modals_AddButton</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

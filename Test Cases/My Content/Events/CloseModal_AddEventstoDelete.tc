@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CloseModal_AddEventstoDelete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba4efeb6-ff86-4e85-82b9-535cea44f22e</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Draft 1 Delete'</defaultValue>
+      <description></description>
+      <id>9c576ddc-b97b-4751-b8a3-4148e81a3479</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Draft Delete and Close'</defaultValue>
+      <description></description>
+      <id>395201d7-0fdb-4883-b2ab-a7a4121b6412</id>
+      <masked>false</masked>
+      <name>Text</name>
+   </variable>
+</TestCaseEntity>

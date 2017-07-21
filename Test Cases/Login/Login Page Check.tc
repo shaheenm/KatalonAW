@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verification of all elements within the Login Page</description>
    <name>Login Page Check</name>
    <tag></tag>
    <comment></comment>

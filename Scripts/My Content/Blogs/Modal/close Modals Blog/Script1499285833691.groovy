@@ -31,8 +31,6 @@ WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_u
 WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     2)
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), 2)
-
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/Button_Close'))
 
 WebUI.verifyElementNotPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 

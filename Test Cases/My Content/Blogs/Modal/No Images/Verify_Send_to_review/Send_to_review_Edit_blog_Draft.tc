@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send_to_review_Edit_blog_Draft</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee7e6ca4-8a75-4813-8a7a-805fb9230a74</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Send to Review 1'</defaultValue>
+      <description></description>
+      <id>787eeb00-6203-4a04-aadd-59b074169a24</id>
+      <masked>false</masked>
+      <name>Title_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a page sent straight to review'</defaultValue>
+      <description></description>
+      <id>193a9d06-5295-45fe-ab5b-644f239b8eb1</id>
+      <masked>false</masked>
+      <name>Text_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Blog Send to Review Edit 1'</defaultValue>
+      <description></description>
+      <id>884ad594-3ba8-494a-8e07-50bc832cfa0c</id>
+      <masked>false</masked>
+      <name>Title_Edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Send to view page is edited'</defaultValue>
+      <description></description>
+      <id>b0e7c4e2-5522-4507-b06a-8622695953e8</id>
+      <masked>false</masked>
+      <name>Text_Edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Itempub2'</defaultValue>
+      <description></description>
+      <id>c4defe91-b1f7-4d0e-aeb0-58b22b00febc</id>
+      <masked>false</masked>
+      <name>Tags_Edit</name>
+   </variable>
+</TestCaseEntity>

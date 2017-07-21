@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send_to_review_Add_Delete_blog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68931cd6-831c-4e16-b5db-0ae6d94d10ae</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Send to Review 1'</defaultValue>
+      <description></description>
+      <id>c628629b-9dd1-42fa-81e1-4d7298f5d8b5</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This page is directly sent to review'</defaultValue>
+      <description></description>
+      <id>cc14d3bf-79d2-4106-a470-4557d992e88b</id>
+      <masked>false</masked>
+      <name>Text</name>
+   </variable>
+   <variable>
+      <defaultValue>'ItemPub1'</defaultValue>
+      <description></description>
+      <id>563f1304-867f-4c65-967a-5d20120931b2</id>
+      <masked>false</masked>
+      <name>Tags</name>
+   </variable>
+</TestCaseEntity>

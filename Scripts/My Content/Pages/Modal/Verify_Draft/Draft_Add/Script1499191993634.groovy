@@ -23,6 +23,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
+Title = WebUI.getText(findTestObject('Page_Pages  junetest2bda/h3_Title'))
+
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
 
 WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
@@ -31,11 +33,15 @@ WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_u
 WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     2)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
+    0]))
+
+'Random Ckeditor Text Generator\\r\\n'
+Ctext = CustomKeywords.'random.Rand_CkEd_Text.rand_text'(GlobalVariable.CKText)
 
 WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Ctext)
 
 WebUI.switchToDefaultContent()
 
@@ -47,13 +53,11 @@ WebUI.waitForPageLoad(2)
 
 WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
 
-actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
+CapTitle = CustomKeywords.'random.Capitals.makeCap'(Title + (GlobalVariable.AddDraftTitle[0]))
 
-WebUI.verifyMatch(actual_title, 'TEST DRAFT 1', true)
+WebUI.verifyTextPresent(CapTitle, true)
 
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
-
-WebUI.verifyMatch(actual_text, 'This is a Draft Test', true)
+WebUI.verifyTextPresent(Ctext, true)
 
 WebUI.switchToDefaultContent()
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Draft_Add_Delete_blog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af90002c-3dd0-4382-bdcd-7f8e1c769531</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Blog Delete Draft 1'</defaultValue>
+      <description></description>
+      <id>22838733-ddf0-47cd-9002-6389ce08209f</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Blog Draft Test'</defaultValue>
+      <description></description>
+      <id>0156da80-40ad-4806-a511-63f4038255f1</id>
+      <masked>false</masked>
+      <name>Text</name>
+   </variable>
+   <variable>
+      <defaultValue>'Item1'</defaultValue>
+      <description></description>
+      <id>bd1e39ac-a0b6-4ce3-9998-15c1f3213665</id>
+      <masked>false</masked>
+      <name>Tags</name>
+   </variable>
+</TestCaseEntity>

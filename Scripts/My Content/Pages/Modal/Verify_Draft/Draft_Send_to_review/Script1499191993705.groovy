@@ -21,9 +21,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('My Content/Pages/Modal/Verify_Draft/Draft_Add'), [('Title') : '', ('Ctext') : ''], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
+Title = WebUI.getText(findTestObject('Page_Pages  junetest2bda/h3_Title'))
+
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Edit'))
+
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
+    3]))
 
 WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     2)
@@ -39,5 +46,5 @@ WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-WebUI.verifyTextPresent(Title_Edit, true)
+WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[3]), true)
 

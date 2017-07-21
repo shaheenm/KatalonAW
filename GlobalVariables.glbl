@@ -27,4 +27,19 @@
       <initValue>10</initValue>
       <name>TeamMemberWeight</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[' Add Draft', ' Add Edit Draft', ' Add Edit Delete Draft', ' Add Edit Send Draft', ' Add Review', ' Add Edit Review', ' Add Edit Delete Review', ' Add Review Edit Draft']</initValue>
+      <name>AddDraftTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mi ex, consectetur ac cursus nec, egestas id enim. Ut venenatis lacus diam, eget pretium quam dictum vitae. Nunc pretium ipsum eget est tincidunt rutrum. Donec egestas in enim id viverra. Sed ut euismod turpis. Etiam quis pulvinar turpis. Maecenas gravida id dolor at commodo. Pellentesque ut semper nibh. Pellentesque auctor finibus ex, ac mattis augue bibendum vel. Mauris nec viverra orci. Quisque lobortis dolor et rutrum finibus. Duis auctor sed nisl aliquam tempus. In nisl eros, eleifend suscipit pretium ut, hendrerit quis magna. Proin malesuada, tellus quis pellentesque suscipit, felis.'</initValue>
+      <name>CKText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['Education', 'Finance', 'Weekly Market']</initValue>
+      <name>Tags</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

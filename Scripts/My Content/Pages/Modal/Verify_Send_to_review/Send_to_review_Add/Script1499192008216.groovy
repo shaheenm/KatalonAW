@@ -25,17 +25,20 @@ WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
 
+Title = WebUI.getText(findTestObject('Page_Pages  junetest2bda/h3_Title'))
+
 WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     2)
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
-    2)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
+    4]))
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
+'Random Ckeditor Text Generator\\r\\n'
+Ctext = CustomKeywords.'random.Rand_CkEd_Text.rand_text'(GlobalVariable.CKText)
 
 WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Ctext)
 
 WebUI.switchToDefaultContent()
 
@@ -47,15 +50,15 @@ WebUI.waitForPageLoad(2)
 
 WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 4)
 
-actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
+CapTitle = CustomKeywords.'random.Capitals.makeCap'(Title + (GlobalVariable.AddDraftTitle[4]))
 
-WebUI.verifyMatch(actual_title, 'TEST SEND TO REVIEW 1', true)
+WebUI.verifyTextPresent(CapTitle, true)
 
-not_run: actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
-
-not_run: WebUI.verifyMatch(actual_text, 'This page is directly sent to review', true)
+WebUI.verifyTextPresent(Ctext, true)
 
 WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
+
+WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[4]), true)
 

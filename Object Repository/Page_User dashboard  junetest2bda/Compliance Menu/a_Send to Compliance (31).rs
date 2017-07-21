@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Send to Compliance (31)</value>
+      <value>Send to Compliance </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

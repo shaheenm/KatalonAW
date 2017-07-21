@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Draft_AddEvents</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52379e16-b784-471c-8721-20d6b001e746</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5d3fc6d-49f2-435c-b36f-e9d066599f0c</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a BlogDraft Test'</defaultValue>
+      <description></description>
+      <id>40de8a8f-8028-4638-ba92-1c40e8f6bb22</id>
+      <masked>false</masked>
+      <name>Text</name>
+   </variable>
+   <variable>
+      <defaultValue>'123 Test St'</defaultValue>
+      <description></description>
+      <id>6a22e333-151f-4560-b695-7e6977361e46</id>
+      <masked>false</masked>
+      <name>Location</name>
+   </variable>
+   <variable>
+      <defaultValue>'2017/08/19'</defaultValue>
+      <description></description>
+      <id>ce1d976f-ccf4-4039-a32f-2320537ad38e</id>
+      <masked>false</masked>
+      <name>DateFrom</name>
+   </variable>
+   <variable>
+      <defaultValue>'2017/08/19'</defaultValue>
+      <description></description>
+      <id>86a29bbc-6b4a-43e3-9306-95b328287bab</id>
+      <masked>false</masked>
+      <name>DateTo</name>
+   </variable>
+   <variable>
+      <defaultValue>'1:00am'</defaultValue>
+      <description></description>
+      <id>13a1b52b-e616-48eb-9c4e-ec60e834ec55</id>
+      <masked>false</masked>
+      <name>TimeFrom</name>
+   </variable>
+   <variable>
+      <defaultValue>'1:01am'</defaultValue>
+      <description></description>
+      <id>24169a0f-4cf1-4877-ba92-5a59634ebcac</id>
+      <masked>false</masked>
+      <name>TimeTo</name>
+   </variable>
+</TestCaseEntity>

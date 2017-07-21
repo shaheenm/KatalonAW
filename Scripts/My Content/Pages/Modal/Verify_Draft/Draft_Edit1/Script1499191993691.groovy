@@ -21,7 +21,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('My Content/Pages/Modal/Verify_Draft/Draft_Add'), [('Title') : '', ('Ctext') : ''], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
+
+Title = WebUI.getText(findTestObject('Page_Pages  junetest2bda/h3_Title'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Edit'))
 
@@ -31,11 +35,15 @@ WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_u
 WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     2)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title_Edit)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
+    1]))
+
+'Random Ckeditor Text Generator\\r\\n'
+Ctext = CustomKeywords.'random.Rand_CkEd_Text.rand_text'(GlobalVariable.CKText)
 
 WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text_Edit)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Ctext)
 
 WebUI.switchToDefaultContent()
 
@@ -44,19 +52,17 @@ WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/butt
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
 'Click to Design Tab\\r\\n'
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft 1'))
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Pages only'))
 
 WebUI.waitForPageLoad(2)
 
 WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 5)
 
-actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
+CapTitle = CustomKeywords.'random.Capitals.makeCap'(Title + (GlobalVariable.AddDraftTitle[1]))
 
-WebUI.verifyMatch(actual_title, 'TEST DRAFT EDIT 1', true)
+WebUI.verifyTextPresent(CapTitle, true)
 
-not_run: actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
-
-not_run: WebUI.verifyMatch(actual_text, 'This is a Draft Edit Test', true)
+WebUI.verifyTextPresent(Ctext, true)
 
 WebUI.switchToDefaultContent()
 

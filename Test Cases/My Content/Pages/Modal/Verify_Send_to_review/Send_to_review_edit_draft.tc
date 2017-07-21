@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send_to_review_edit_draft</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46648b4b-41f3-4456-b4bf-1eef00ae415b</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Send to Review 1'</defaultValue>
+      <description></description>
+      <id>25da79bb-0f2a-4f56-b3b8-3803ce1e74bb</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This page is directly sent to review'</defaultValue>
+      <description></description>
+      <id>064983d9-eff5-4306-91b6-466c24794d2f</id>
+      <masked>false</masked>
+      <name>Text</name>
+   </variable>
+</TestCaseEntity>

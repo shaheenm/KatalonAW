@@ -21,67 +21,19 @@
       <guid>babc1301-04b4-474e-bddf-df10646c8a71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/Modal/Verify_Draft/Draft_Add_blog</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fc653a58-a2ae-4c42-a6f5-fa94c5619bf4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fb8c4aac-01bd-450d-9806-be5e731eacbd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6c7bf817-c7d6-43f7-902b-0ebb606d0371</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/My Content/Blogs/Modal/No Images/Verify_Draft/Draft_Add_blog</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c3cfc5f6-e9fc-4a36-92b1-2b0b95b3fc71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/Modal/Verify_Draft/Draft_Edit1_blog</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d4f9a2e0-6b32-4b6c-bfa4-00e92d8aa893</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>de48ef81-d6e0-49cd-9394-14e1e8336362</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1085dbb7-ed30-47b1-8236-a5a838a561c2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a32b9b0b-287b-42c4-b739-ca2af3757c5d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bc5114f9-6358-4749-a187-a2cb0646402a</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/My Content/Blogs/Modal/No Images/Verify_Draft/Draft_Edit1_blog</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ce8d0bcb-1a12-4eed-8732-47dd40f94804</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/Modal/Verify_Draft/Draft_Add_Delete_blog</testCaseId>
+      <testCaseId>Test Cases/My Content/Blogs/Modal/No Images/Verify_Draft/Draft_Add_Delete_blog</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -105,7 +57,7 @@
       <guid>fa4befa3-7ffc-4eb2-aa36-3c9314b9ed20</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/Modal/Verify_Draft/Draft_Send_to_review_blog</testCaseId>
+      <testCaseId>Test Cases/My Content/Blogs/Modal/No Images/Verify_Draft/Draft_Send_to_review_blog</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -141,7 +93,7 @@
       <guid>57c8f3a0-985a-4ff5-ac4d-d805596c4f13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/Modal/Verify_Send_to_review/Send_to_review_Add_blogs</testCaseId>
+      <testCaseId>Test Cases/My Content/Blogs/Modal/No Images/Verify_Send_to_review/Send_to_review_Add_blogs</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -165,7 +117,7 @@
       <guid>ad534ff3-c54e-4fb5-b480-896c4056652f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/Modal/Verify_Send_to_review/Send_to_review_Edit_blog</testCaseId>
+      <testCaseId>Test Cases/My Content/Blogs/Modal/No Images/Verify_Send_to_review/Send_to_review_Edit_blog</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -201,7 +153,7 @@
       <guid>5e948e08-2b54-4a26-93b9-7f782f7fdda6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/Modal/Verify_Send_to_review/Send_to_review_Add_Delete_blog</testCaseId>
+      <testCaseId>Test Cases/My Content/Blogs/Modal/No Images/Verify_Send_to_review/Send_to_review_Add_Delete_blog</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -225,7 +177,7 @@
       <guid>16609a20-f2f4-4995-b914-30ee95bb600a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Blogs/CloseModal_AddBlogtoDelete</testCaseId>
+      <testCaseId>Test Cases/My Content/Blogs/Modal/CloseModal_AddBlogtoDelete</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

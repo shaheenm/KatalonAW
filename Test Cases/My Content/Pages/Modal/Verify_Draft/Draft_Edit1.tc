@@ -5,32 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>84b26c8e-3e60-4afc-b3ed-7e484e697dae</testCaseGuid>
-   <variable>
-      <defaultValue>'Test Draft 1'</defaultValue>
-      <description></description>
-      <id>db4121eb-cda3-44f7-bbbc-e9d83dcc5826</id>
-      <masked>false</masked>
-      <name>Title_Add</name>
-   </variable>
-   <variable>
-      <defaultValue>'This is a Draft Test'</defaultValue>
-      <description></description>
-      <id>34d3a66d-21de-44cd-be3e-06dbbee58860</id>
-      <masked>false</masked>
-      <name>Text_Add</name>
-   </variable>
-   <variable>
-      <defaultValue>'Test Draft Edit 1'</defaultValue>
-      <description></description>
-      <id>38693a0d-9f44-437a-adec-3cb5bfb10e12</id>
-      <masked>false</masked>
-      <name>Title_Edit</name>
-   </variable>
-   <variable>
-      <defaultValue>'This is a Draft Edit Test'</defaultValue>
-      <description></description>
-      <id>e5f4605c-3384-4e88-bbd7-8f57afb49209</id>
-      <masked>false</masked>
-      <name>Text_Edit</name>
-   </variable>
 </TestCaseEntity>
