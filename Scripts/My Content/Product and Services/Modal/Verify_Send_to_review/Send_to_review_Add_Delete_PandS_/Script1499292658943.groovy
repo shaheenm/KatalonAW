@@ -21,25 +21,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Products  Services'))
+
+Title = WebUI.getText(findTestObject('Page_Pages  junetest2bda/h3_Title'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
 
 WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     2)
 
-WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
-    2)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
+    6]))
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title)
+String ProductWeightValue = GlobalVariable.ProductMemberWeight
 
-WebUI.check(findTestObject('Page_Products  Services  junetest2b/input_field_link_to_pagevalue_Checkbox'))
+WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_weight0value'), ProductWeightValue)
 
-WebUI.click(findTestObject('Page_Products  Services  junetest2b/select_field_icon_Selection'))
+GlobalVariable.ProductMemberWeight -= 1
 
 WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
@@ -49,7 +49,11 @@ WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-WebUI.verifyTextPresent(Title, true)
+if (WebUI.verifyTextPresent('Activate your', true)) {
+    WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
+} else {
+    WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[6]), true)
+}
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
@@ -67,7 +71,5 @@ WebUI.verifyElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-WebUI.verifyTextNotPresent(Title, true)
-
-WebUI.closeBrowser()
+WebUI.verifyTextNotPresent(Title + (GlobalVariable.AddDraftTitle[6]), true)
 

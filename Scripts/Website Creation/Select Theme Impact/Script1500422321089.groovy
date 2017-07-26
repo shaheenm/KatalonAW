@@ -20,10 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Account)
-
-WebUI.click(findTestObject('Page_Log in  AW Force/a_Create an account'))
-
 WebUI.verifyElementPresent(findTestObject('Page_AW Force Website Builder/Themes/label_Select a theme'), 1)
 
 WebUI.click(findTestObject('Page_AW Force Website Builder/Themes/span_Reaction'))

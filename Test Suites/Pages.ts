@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/Login/Login Via Website</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7e6d2aac-ffc2-4546-8fef-8729ea82ca97</guid>
+      <guid>ffa89138-2e21-40e2-8b09-a95e09b5f8dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add</testCaseId>
@@ -36,13 +36,37 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>443ee495-311b-4fa3-9da0-f8a5289c4cea</guid>
+      <guid>8ee56951-7c96-4d52-a7a9-95627fc06844</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Pages/Modal/close Modals_AddButton</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>45765441-92c0-4453-a099-33e31f58a6d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Pages/Modal/CloseModal_AddPagetoDelete</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce514531-1e3c-4db1-bc94-29caf1838f35</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a386514-21e6-447d-a9ac-6174fdc281e5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c6846c10-d089-4a29-9b0a-21f63f42874c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Edit1</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1d475552-20d5-4d88-9e88-75ee5b6cccf3</guid>
+      <guid>058412c2-f020-4756-b7b9-85154bea0d5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add_Delete</testCaseId>
@@ -60,7 +84,37 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>01d09b26-6325-4e27-b619-a5e933297045</guid>
+      <guid>a0b03068-c59a-4efc-8d5d-b038a6facc40</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Send_to_review</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c3f0a12-5a17-4f2b-bd94-104c69c2ba7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d428bdf8-13c9-4879-b0f6-7d649580f4e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11c2a0ce-fab1-41c1-bc36-618395081e9a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>25935ca7-c1af-4499-9005-5e6f18daf855</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>04d21b9f-19da-41c9-8fef-0c445e592684</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add</testCaseId>
@@ -78,25 +132,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>41b15b31-547c-4563-b4eb-6f5dfc9c1adf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b178555d-07d3-42c1-9806-051dbb2f3a24</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b07869a4-bea3-422b-89db-aa9fa3ccd15d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a71bd131-73c1-4d26-b862-fb342992cc5f</guid>
+      <guid>382aeb68-f32d-4240-a3cc-fc12839f7470</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Edit</testCaseId>
@@ -126,7 +162,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fe0ed45d-f307-4986-9f00-14d75ddb13fa</guid>
+      <guid>d558f32a-ed73-4e21-90a0-b2807d782dea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_Add_Delete</testCaseId>
@@ -144,27 +180,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1a4f89e3-711e-4834-be82-1dabcb3442ea</guid>
+      <guid>35c7ca84-ae3c-4d62-9a25-d8f27b76322d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Pages/Modal/CloseModal_AddPagetoDelete</testCaseId>
+      <testCaseId>Test Cases/My Content/Pages/Modal/Verify_Send_to_review/Send_to_review_edit_draft</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ce514531-1e3c-4db1-bc94-29caf1838f35</variableId>
+         <variableId>25da79bb-0f2a-4f56-b3b8-3803ce1e74bb</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6a386514-21e6-447d-a9ac-6174fdc281e5</variableId>
+         <variableId>064983d9-eff5-4306-91b6-466c24794d2f</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9e5f5a37-e3b1-49b1-9ae4-eef335bc2926</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Pages/Modal/close Modals_AddButton</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

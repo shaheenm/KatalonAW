@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Close Modal to Delete Events</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57ce9921-48b3-4af7-8aba-1e0b61cbdc76</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Team Draft 1 Delete'</defaultValue>
+      <description></description>
+      <id>872a368d-e461-49f4-a927-4730461e1527</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Draft Delete and Close'</defaultValue>
+      <description></description>
+      <id>4e7df7e2-8b2d-478b-9caa-ccbb01165f0e</id>
+      <masked>false</masked>
+      <name>Text</name>
+   </variable>
+</TestCaseEntity>

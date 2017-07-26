@@ -21,11 +21,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('My Content/Product and Services/Modal/Verify_Send_to_review/Send_to_review_Add_PandS_'), 
+    [('Title') : 'Test Product Send to Review 1', ('Text') : 'This page is directly sent to review'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Products  Services'))
+
+Title = WebUI.getText(findTestObject('Page_Pages  junetest2bda/h3_Title'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Edit'))
 
@@ -35,13 +38,28 @@ WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_u
 WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     2)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title_Edit)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
+    5]))
 
-WebUI.uncheck(findTestObject('Page_Products  Services  junetest2b/input_field_link_to_pagevalue_Checkbox'))
+WebUI.check(findTestObject('Page_Products  Services  junetest2b/input_field_link_to_pagevalue_Checkbox'))
+
+String ProductWeightValue = GlobalVariable.ProductMemberWeight
+
+WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_weight0value'), ProductWeightValue)
+
+GlobalVariable.ProductMemberWeight -= 1
+
+'Random Icon Selector\\r\\n'
+Selected_icon = CustomKeywords.'random.Rand_Icon_PS.rand_icon'(81)
+
+WebUI.selectOptionByIndex(findTestObject('Page_Products  Services  junetest2b/select_field_icon_Selection'), Selected_icon)
+
+'Random Ckeditor Text Generator\\r\\n'
+Ctext = CustomKeywords.'random.Rand_CkEd_Text.rand_text'(GlobalVariable.CKText)
 
 WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'), 4)
 
-WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Text_Edit)
+WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Ctext)
 
 WebUI.switchToDefaultContent()
 
@@ -49,26 +67,26 @@ WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/butt
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
-'Click to Design Tab\r\n'
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Pages only'))
+'Click to Design Tab\\r\\n'
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Other'))
 
 WebUI.waitForPageLoad(2)
 
 WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
 
-actual_title = WebUI.getText(findTestObject('Page_Preview  junetest2bda/span_Test Draft 1'))
+CapTitle = CustomKeywords.'random.Capitals.makeCap'(Title + (GlobalVariable.AddDraftTitle[5]))
 
-WebUI.verifyMatch(actual_title, 'TEST PRODUCT SEND TO REVIEW EDIT 1', true)
-
-actual_text = WebUI.getText(findTestObject('Page_Preview  junetest2bda/p_This is a Draft Test'))
-
-WebUI.verifyMatch(actual_text, 'Send to view page is edited', true)
+WebUI.verifyTextPresent(CapTitle, true)
 
 WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-WebUI.verifyTextPresent(Title_Edit, true)
+if (WebUI.verifyTextPresent('Activate your', true)) {
+    WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
+} else {
+    WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[4]), true, FailureHandling.CONTINUE_ON_FAILURE)
+}
 
-WebUI.closeBrowser()
+WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[5]), true, FailureHandling.CONTINUE_ON_FAILURE)
 

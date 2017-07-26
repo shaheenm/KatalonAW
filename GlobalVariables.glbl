@@ -4,12 +4,12 @@
    <tag></tag>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'releasetestjuly20a.force1.awdev.ca/user'</initValue>
+      <initValue>'julytest20a.force1.awdev.ca/user'</initValue>
       <name>Website</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'releasetestjuly20a'</initValue>
+      <initValue>'julytest20a'</initValue>
       <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,5 +41,20 @@
       <description></description>
       <initValue>['Education', 'Finance', 'Weekly Market']</initValue>
       <name>Tags</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['123-123-1234', 'name@example.com', 'CPA, FPA®', 'CEO, Financial Advisor', 'https://www.linkedin.com/', 'https://www.facebook.com/', 'https://www.twitter.com/', 'skype@example.com']</initValue>
+      <name>Team_PEDLIFTS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['321-321-4321', 'name_edit@example.com', 'IRA, EditFPA', 'Assistant Financial Advisor', 'https://www.linkedin.com/', 'https://www.facebook.com/', 'https://www.twitter.com/', '']</initValue>
+      <name>Teamedit_PEDLIFTS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>ProductMemberWeight</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

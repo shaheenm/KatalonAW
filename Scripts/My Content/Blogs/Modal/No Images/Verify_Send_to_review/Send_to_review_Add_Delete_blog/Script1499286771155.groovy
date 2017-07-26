@@ -47,6 +47,8 @@ WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[6]), true)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'))
+
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Delete'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/button_Delete'))

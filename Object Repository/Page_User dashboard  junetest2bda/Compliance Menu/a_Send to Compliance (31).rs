@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;aw_toolbar&quot;)/div[@class=&quot;top-bar-container&quot;]/div[@class=&quot;top-bar-right&quot;]/ul[@class=&quot;menu--base&quot;]/li[@class=&quot;has-dropdown show-for-medium-up&quot;]/a[@class=&quot;fi-arrow-right button--primary&quot;]</value>
+      <value>id(&quot;aw_toolbar&quot;)/div[@class=&quot;top-bar-container&quot;]/div[@class=&quot;top-bar-right&quot;]/ul[@class=&quot;menu--base&quot;]/li[@class=&quot;has-dropdown show-for-medium-up&quot;]/a[1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

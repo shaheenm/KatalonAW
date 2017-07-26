@@ -18,178 +18,16 @@
       <testCaseId>Test Cases/Login/Login Via Website</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6c742922-8d66-48e1-8ec3-abcb422b4c33</guid>
+      <guid>c48061e3-91b6-4f8b-8b72-572dcf8a8a8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Our Team/Modal/close_Team_Modals</testCaseId>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/No Images/Verify_Draft/Draft_Add_Team_</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a29b3c84-a242-45db-bf1f-996ce8b29741</guid>
+      <guid>a182208f-58f6-4a69-ba9d-2cdd6810753b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Our Team/Modal/Verify_Draft/Draft_Add_Team_</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>86a7ba00-7f3c-4755-834e-d6666c80a1ae</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7a7ed524-3ff3-4fd8-8433-f904b7be32a4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9b8a6ce2-8994-4035-92be-7991b7ad5376</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bf0eef95-7c7a-4038-8b07-610b81782332</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0e87e170-6d00-4654-a691-5421a084f7f7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5e2f328c-5b23-4629-bcd4-99ac429d7f9e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bf92791c-604c-4834-9929-124bb875d5e3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f48ea579-0e72-46e4-a5e3-725ef1a8e59c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d7839bf4-98ca-43d5-beeb-e877efec33b6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e38e23fc-f5fb-41d8-a373-7710c7c31ce2</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9ef31a8d-438a-4857-8c0a-0686907bf173</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Our Team/Modal/Verify_Draft/Draft_Edit_Team</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a2e2eca8-4c6f-4e8a-836b-9ffef9f138a7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>266c5121-7203-43a0-bd71-2779bcec4dc8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>56b1b4c4-3e15-452a-93d8-76a2ea7966ef</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a931d9e5-b8fe-464a-9a76-b1e4f67bed9f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>48c2fa1d-08db-43f7-88a6-d9b628ecd1ac</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>368ddfc9-1f90-4d08-9dca-abc2f15cb0ea</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ab08d8cb-acf1-40a4-bf6d-97a483fd0ce4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7de5c670-d2e5-4b4a-8ae2-dea1385c5225</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>432a4fe2-0ecd-4592-8c23-9cc8666dbfbd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f3e3b3ce-049b-4602-94d4-2b6faa272e49</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e267cb45-d259-4bfb-ad92-5ccc5b33239a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Our Team/Modal/Verify_Draft/Draft_Send_to_review_Team_</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>868b79ae-850e-499f-9035-191768e95276</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e6cfd645-1cc9-4073-a6df-8127a8b0c1e0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>65ee582e-17ae-450b-a7ec-3f3f48375d23</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>38c8753e-b02c-4926-8d7a-b0414f722532</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>505c4c59-a25e-44f2-b441-760bbb97a273</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Our Team/CloseModal_Add_Team_toDelete</testCaseId>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/CloseModal_Add_Team_toDelete</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -204,10 +42,22 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4ec1bf86-53b4-4809-9de6-0a8bca165141</guid>
+      <guid>f1804fac-6862-4856-a62b-c4f5478dc30a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Our Team/Modal/Verify_Draft/Draft_Add_Delete_Team_</testCaseId>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/close_Team_Modals</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d5db7071-3a55-4158-9268-bc8897b9bd42</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/No Images/Verify_Draft/Draft_Edit_Team</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>62836f1b-f399-4fa1-aa27-46fcb24688e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/No Images/Verify_Draft/Draft_Add_Delete_Team_</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -270,76 +120,46 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d49285d-1f6f-471d-916e-b0326165f69b</guid>
+      <guid>d0f7d153-3ed8-4c88-a849-a0c850b30c62</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Team_</testCaseId>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/No Images/Verify_Draft/Draft_Send_to_review_Team_</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>047c352a-f41c-4d94-b58e-e0a7c98cf057</variableId>
+         <variableId>868b79ae-850e-499f-9035-191768e95276</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c72f6513-b55d-4a14-8e42-7f8d89cb95bc</variableId>
+         <variableId>e6cfd645-1cc9-4073-a6df-8127a8b0c1e0</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>dcfb50b0-2f56-4ab6-bb1e-b5d8484774d7</variableId>
+         <variableId>65ee582e-17ae-450b-a7ec-3f3f48375d23</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>15d22ff7-5ffe-4911-8abf-721a5f43002c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e7a48d90-9fcf-47df-8303-cd4378beba36</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6742ebdb-b02c-4b94-a3a2-4d16eafaa8df</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4783b566-715f-4e42-92ff-6619012a3baf</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>99603e1b-43ba-4dcb-a18b-1ebfe1c83b94</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ffc4affb-968f-433d-ac86-23c5152a9e17</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2cae648f-42f2-4980-80ec-b126598b8e1e</variableId>
+         <variableId>38c8753e-b02c-4926-8d7a-b0414f722532</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>41126bf5-dbce-4883-9762-17d0ed5c44f7</guid>
+      <guid>3bcea9dd-6b65-4b00-8758-0ce538a257f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Edit_Team_</testCaseId>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/No Images/Verify_Send_to_review/Send_to_review_Add_Team_</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f244f7f-db2e-447e-b21d-82d18c94581e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/No Images/Verify_Send_to_review/Send_to_review_Edit_Team_</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -402,69 +222,75 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3d9df1cf-52ca-4cd2-8640-fadbd0b2e755</guid>
+      <guid>1770c43f-3366-4630-a5d2-0d9b28d9458b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/My Content/Our Team/Modal/Verify_Send_to_review/Send_to_review_Add_Delete_Team_</testCaseId>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/No Images/Verify_Send_to_review/Send_to_review_Add_Delete_Team_</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6a55eab-3caa-4282-95c9-9ecd1f8f2c74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Content/Our Team/Modal/No Images/Verify_Send_to_review/Send_to_review_Edit_Team_draft</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ef7ce5ea-f68b-42c0-9f8b-c37b64df1f70</variableId>
+         <variableId>07c57f93-ea0f-423a-8f7a-da480f43372c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0773e99b-dba1-43ab-b323-a754032eef33</variableId>
+         <variableId>5aaedde7-dfb6-46b3-b175-5cfad326a78e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>29042a4b-6abd-478d-b565-c403eef942e3</variableId>
+         <variableId>f7562f31-e34a-42cc-a12f-a07d0c76b177</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5e426915-7150-42d0-a47c-a40a17e61d06</variableId>
+         <variableId>e2a5b0d8-4391-4d9a-9a17-c8be77e84f04</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d42ff888-87e1-4cd8-8ba7-084f6c310d9a</variableId>
+         <variableId>25f2cb2a-f351-414d-aae9-6344756badc7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>bfbaee6a-4cc4-447c-9d2d-099e7917b067</variableId>
+         <variableId>3bd9bf57-70b3-42aa-9dd4-221fd8610996</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>95b0e889-72a7-44ee-834a-72238c57f9cc</variableId>
+         <variableId>213f8cdb-fa6e-4a24-8706-39475b9aae93</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7fa5634c-df19-4355-80a0-63b835fca9de</variableId>
+         <variableId>aaeb1bc3-94e4-4bf2-833a-6027871722d5</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5afc7f9d-3278-4c19-8182-d8cb8b76ef1d</variableId>
+         <variableId>8066fbdb-37bc-44c5-9c6f-a78fd4670190</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>05fbc521-a0d8-40a0-a49a-507b06f0dac3</variableId>
+         <variableId>245284da-1975-4193-96dc-7acda92fda7a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -46,6 +46,8 @@ WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'))
+
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Delete'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/button_Delete'))
@@ -57,6 +59,8 @@ WebUI.verifyElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/
     2)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
+
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Blog'))
 
 WebUI.verifyTextNotPresent(Title + (GlobalVariable.AddDraftTitle[2]), true)
 

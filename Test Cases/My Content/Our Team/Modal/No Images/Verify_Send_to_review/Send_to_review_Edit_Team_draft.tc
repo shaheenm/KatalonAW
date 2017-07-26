@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send_to_review_Edit_Team_draft</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44cd1865-7d3e-4d7b-8ba5-d74975fdd86e</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Team Review Edit Draft 1'</defaultValue>
+      <description></description>
+      <id>07c57f93-ea0f-423a-8f7a-da480f43372c</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a Team Draft Test'</defaultValue>
+      <description></description>
+      <id>5aaedde7-dfb6-46b3-b175-5cfad326a78e</id>
+      <masked>false</masked>
+      <name>Text</name>
+   </variable>
+   <variable>
+      <defaultValue>'123-123-1322'</defaultValue>
+      <description></description>
+      <id>f7562f31-e34a-42cc-a12f-a07d0c76b177</id>
+      <masked>false</masked>
+      <name>Phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'Financial Advisor'</defaultValue>
+      <description></description>
+      <id>e2a5b0d8-4391-4d9a-9a17-c8be77e84f04</id>
+      <masked>false</masked>
+      <name>Designation</name>
+   </variable>
+   <variable>
+      <defaultValue>'name@example.com'</defaultValue>
+      <description></description>
+      <id>25f2cb2a-f351-414d-aae9-6344756badc7</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://www.facebook.com'</defaultValue>
+      <description></description>
+      <id>3bd9bf57-70b3-42aa-9dd4-221fd8610996</id>
+      <masked>false</masked>
+      <name>Facebook</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://www.linkedin.com'</defaultValue>
+      <description></description>
+      <id>213f8cdb-fa6e-4a24-8706-39475b9aae93</id>
+      <masked>false</masked>
+      <name>Linkedin</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://www.twitter.com'</defaultValue>
+      <description></description>
+      <id>aaeb1bc3-94e4-4bf2-833a-6027871722d5</id>
+      <masked>false</masked>
+      <name>Twitter</name>
+   </variable>
+   <variable>
+      <defaultValue>'skype@example.com'</defaultValue>
+      <description></description>
+      <id>8066fbdb-37bc-44c5-9c6f-a78fd4670190</id>
+      <masked>false</masked>
+      <name>Skype</name>
+   </variable>
+   <variable>
+      <defaultValue>'CPA, CFFA'</defaultValue>
+      <description></description>
+      <id>245284da-1975-4193-96dc-7acda92fda7a</id>
+      <masked>false</masked>
+      <name>License</name>
+   </variable>
+</TestCaseEntity>

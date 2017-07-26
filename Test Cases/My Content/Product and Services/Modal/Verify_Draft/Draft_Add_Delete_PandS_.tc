@@ -9,12 +9,14 @@
       <defaultValue>'Test Product Draft 1'</defaultValue>
       <description></description>
       <id>5f39e8ec-a4f1-4f07-bd52-7ca40b5fb0ae</id>
+      <masked>false</masked>
       <name>Title</name>
    </variable>
    <variable>
       <defaultValue>'This is a Product Draft Test'</defaultValue>
       <description></description>
       <id>967d0f9f-2b9e-4424-ac0c-c19e03602ed9</id>
+      <masked>false</masked>
       <name>Text</name>
    </variable>
 </TestCaseEntity>
