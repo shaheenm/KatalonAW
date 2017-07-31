@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import java.time.Month as Month
+import javax.lang.model.element.VariableElement as VariableElement
 import org.jsoup.select.Evaluator.ContainsText as ContainsText
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
@@ -23,7 +25,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Events'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
 
@@ -38,30 +40,6 @@ WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
     0]))
 
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_phone0value'), GlobalVariable.Team_PEDLIFTS[0])
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_email0value'), GlobalVariable.Team_PEDLIFTS[1])
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_designation0value'), GlobalVariable.Team_PEDLIFTS[
-    2])
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/textarea_field_role_title0valu'), GlobalVariable.Team_PEDLIFTS[
-    3])
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_linkedin0uri'), GlobalVariable.Team_PEDLIFTS[4])
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_facebook0uri'), GlobalVariable.Team_PEDLIFTS[5])
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_twitter0uri'), GlobalVariable.Team_PEDLIFTS[6])
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_skype0value'), GlobalVariable.Team_PEDLIFTS[7])
-
-String TeamMemberWeightValue = GlobalVariable.TeamMemberWeight
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_weight0value'), TeamMemberWeightValue)
-
-GlobalVariable.TeamMemberWeight -= 1
-
 'Random Ckeditor Text Generator\\r\\n'
 Ctext = CustomKeywords.'random.Rand_CkEd_Text.rand_text'(GlobalVariable.CKText)
 
@@ -70,6 +48,20 @@ WebUI.switchToFrame(findTestObject('Page_Pages  junetest2bda/Modal/iframe_cke_wy
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Ctext)
 
 WebUI.switchToDefaultContent()
+
+WebUI.setText(findTestObject('Page_Events  Advisor Websites/input_field_location0value'), GlobalVariable.EventsLDD[0])
+
+WebUI.sendKeys(findTestObject('Page_Events  Advisor Websites/input_field_date_from0valuetim'), (GlobalVariable.EventsLDD[
+    3]) + Keys.chord(Keys.UP))
+
+WebUI.sendKeys(findTestObject('Page_Events  Advisor Websites/input_field_date_to0valuetime'), (GlobalVariable.EventsLDD[
+    4]) + Keys.chord(Keys.UP))
+
+WebUI.setText(findTestObject('Page_Events  Advisor Websites/input_field_date_from0valuedat'), GlobalVariable.EventsLDD[1])
+
+WebUI.setText(findTestObject('Page_Events  Advisor Websites/input_field_date_to0valuedate'), GlobalVariable.EventsLDD[2])
+
+WebUI.sendKeys(findTestObject('Page_Events  Advisor Websites/input_field_date_to0valuetime'), Keys.chord(Keys.ENTER))
 
 WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
@@ -85,33 +77,15 @@ WebUI.verifyTextPresent(Ctext, true)
 
 WebUI.verifyTextPresent(CapTitle, true)
 
-WebUI.verifyTextPresent(GlobalVariable.Team_PEDLIFTS[0], true)
+WebUI.verifyTextPresent(GlobalVariable.EventsLDD[0], true)
 
-WebUI.verifyTextPresent(GlobalVariable.Team_PEDLIFTS[1], true)
+not_run: WebUI.verifyTextPresent(GlobalVariable.EventsLDD[1], true)
 
-WebUI.verifyTextPresent(GlobalVariable.Team_PEDLIFTS[2], true)
+not_run: WebUI.verifyTextPresent(GlobalVariable.EventsLDD[2], true)
 
-WebUI.verifyTextPresent(GlobalVariable.Team_PEDLIFTS[3], true)
+WebUI.verifyTextPresent(GlobalVariable.EventsLDD[3], true)
 
-WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/Team Members/i_fi-social-linkedin'), 1)
-
-WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/Team Members/i_fi-social-facebook'), 1)
-
-WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/Team Members/i_fi-social-twitter'), 1)
-
-WebUI.verifyElementPresent(findTestObject('Page_Preview  junetest2bda/Team Members/i_fi-social-skype'), 1)
-
-WebUI.verifyElementAttributeValue(findTestObject('Page_Preview  junetest2bda/Team Members/a_linkedin'), 'href', GlobalVariable.Team_PEDLIFTS[
-    4], 1)
-
-WebUI.verifyElementAttributeValue(findTestObject('Page_Preview  junetest2bda/Team Members/a_facebook'), 'href', GlobalVariable.Team_PEDLIFTS[
-    5], 1)
-
-WebUI.verifyElementAttributeValue(findTestObject('Page_Preview  junetest2bda/Team Members/a_twitter'), 'href', GlobalVariable.Team_PEDLIFTS[
-    6], 1)
-
-not_run: WebUI.verifyElementAttributeValue(findTestObject('Page_Preview  junetest2bda/Team Members/a_skype'), 'href', GlobalVariable.Team_PEDLIFTS[
-    7], 1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyTextPresent(GlobalVariable.EventsLDD[4], true)
 
 WebUI.switchToDefaultContent()
 

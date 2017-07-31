@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Send_to_review_Edit_Team_</name>
+   <name>Send_to_review_Edit_Event</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2c005a08-09f3-460a-a958-db6fe17f24e2</testCaseGuid>

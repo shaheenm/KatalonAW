@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Send_to_review_Add_Delete_Team_</name>
+   <name>Send_to_review_Add_Delete_Event_</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b8a21f1c-e5e3-484c-9f71-ed5735efe354</testCaseGuid>

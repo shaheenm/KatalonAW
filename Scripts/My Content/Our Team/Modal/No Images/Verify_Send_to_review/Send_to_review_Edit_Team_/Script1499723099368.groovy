@@ -123,11 +123,5 @@ not_run: WebUI.verifyElementAttributeValue(findTestObject('Page_Preview  junetes
 
 WebUI.switchToDefaultContent()
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
-
-if (WebUI.verifyTextPresent('Activate your', true)) {
-    WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
-} else {
-    WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[5]), true, FailureHandling.CONTINUE_ON_FAILURE)
-}
+not_run: WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 

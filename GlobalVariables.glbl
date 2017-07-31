@@ -4,12 +4,12 @@
    <tag></tag>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'julytest20a.force1.awdev.ca/user'</initValue>
+      <initValue>'releasetestaug1bda.force1.awdev.ca/user'</initValue>
       <name>Website</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'julytest20a'</initValue>
+      <initValue>'releasetestaug1bda'</initValue>
       <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,5 +56,15 @@
       <description></description>
       <initValue>10</initValue>
       <name>ProductMemberWeight</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['Location', '2017-09-10', '2017-09-10', '10:20', '10:20']</initValue>
+      <name>EventsLDD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['Location Location', '2017-09-11', '2017-09-11', '11:30', '11:40']</initValue>
+      <name>EventseditLDD</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

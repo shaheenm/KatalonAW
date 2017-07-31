@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview')
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
+not_run: WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[3]), true)
+not_run: WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[3]), true)
 

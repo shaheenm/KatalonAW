@@ -23,7 +23,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Events'))
 
 Title = WebUI.getText(findTestObject('Page_Pages  junetest2bda/h3_Title'))
 
@@ -35,11 +35,17 @@ WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_u
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
     2]))
 
-String TeamMemberWeightValue = GlobalVariable.TeamMemberWeight
+WebUI.setText(findTestObject('Page_Events  Advisor Websites/input_field_location0value'), GlobalVariable.EventsLDD[0])
 
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_weight0value'), TeamMemberWeightValue)
+WebUI.sendKeys(findTestObject('Page_Events  Advisor Websites/input_field_date_from0valuetim'), (GlobalVariable.EventsLDD[
+    3]) + Keys.chord(Keys.UP))
 
-GlobalVariable.TeamMemberWeight -= 1
+WebUI.sendKeys(findTestObject('Page_Events  Advisor Websites/input_field_date_to0valuetime'), (GlobalVariable.EventsLDD[
+    4]) + Keys.chord(Keys.UP))
+
+WebUI.setText(findTestObject('Page_Events  Advisor Websites/input_field_date_from0valuedat'), GlobalVariable.EventsLDD[1])
+
+WebUI.setText(findTestObject('Page_Events  Advisor Websites/input_field_date_to0valuedate'), GlobalVariable.EventsLDD[2])
 
 WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
@@ -47,7 +53,7 @@ WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Events'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Delete'))
 
@@ -61,7 +67,7 @@ WebUI.verifyElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Events'))
 
 WebUI.verifyTextNotPresent(Title + (GlobalVariable.AddDraftTitle[2]), true)
 

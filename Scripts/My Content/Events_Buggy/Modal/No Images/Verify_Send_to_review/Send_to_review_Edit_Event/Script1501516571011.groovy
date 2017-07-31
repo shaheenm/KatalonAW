@@ -21,32 +21,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Our Team/Modal/No Images/Verify_Send_to_review/Send_to_review_Add_Team_'), [
-        ('Title') : 'Test Team Review Edit Draft 1', ('Text') : 'This is a Team Draft Test', ('Phone') : '123-123-1322', ('Designation') : 'Financial Advisor'
-        , ('Email') : 'name@example.com', ('Facebook') : 'http://www.facebook.com', ('Linkedin') : 'http://www.linkedin.com'
-        , ('Twitter') : 'http://www.twitter.com', ('Skype') : 'skype@example.com', ('License') : 'CPA, CFFA'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('My Content/Events_Buggy/Modal/No Images/Verify_Send_to_review/Send_to_review_Add_Event_'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Events'))
+
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Add New'))
 
 Title = WebUI.getText(findTestObject('Page_Pages  junetest2bda/h3_Title'))
-
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Edit'))
 
 WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
     5)
 
+WebUI.verifyElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal'), 
+    2)
+
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
-    7]))
-
-String TeamMemberWeightValue = GlobalVariable.TeamMemberWeight
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_weight0value'), TeamMemberWeightValue)
-
-GlobalVariable.TeamMemberWeight -= 1
-
-println(GlobalVariable.TeamMemberWeight)
+    5]))
 
 'Random Ckeditor Text Generator\\r\\n'
 Ctext = CustomKeywords.'random.Rand_CkEd_Text.rand_text'(GlobalVariable.CKText)
@@ -57,9 +50,25 @@ WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/p'), Ctext)
 
 WebUI.switchToDefaultContent()
 
-WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
+WebUI.setText(findTestObject('Page_Events  Advisor Websites/input_field_location0value'), GlobalVariable.EventseditLDD[0])
 
-WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
+WebUI.sendKeys(findTestObject('Page_Events  Advisor Websites/input_field_date_from0valuetim'), (GlobalVariable.EventseditLDD[
+    3]) + Keys.chord(Keys.UP))
+
+WebUI.sendKeys(findTestObject('Page_Events  Advisor Websites/input_field_date_to0valuetime'), (GlobalVariable.EventseditLDD[
+    4]) + Keys.chord(Keys.UP))
+
+WebUI.setText(findTestObject('Page_Events  Advisor Websites/input_field_date_from0valuedat'), GlobalVariable.EventseditLDD[
+    1])
+
+WebUI.setText(findTestObject('Page_Events  Advisor Websites/input_field_date_to0valuedate'), GlobalVariable.EventseditLDD[
+    2])
+
+WebUI.sendKeys(findTestObject('Page_Events  Advisor Websites/input_field_date_to0valuetime'), Keys.chord(Keys.ENTER))
+
+WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
+
+WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
 'Click to Design Tab\\r\\n'
 WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Other'))
@@ -68,17 +77,23 @@ WebUI.waitForPageLoad(2)
 
 WebUI.switchToFrame(findTestObject('Page_Preview  junetest2bda/iframe_website-preview'), 10)
 
-CapTitle = CustomKeywords.'random.Capitals.makeCap'(Title + (GlobalVariable.AddDraftTitle[7]))
+CapTitle = CustomKeywords.'random.Capitals.makeCap'(Title + (GlobalVariable.AddDraftTitle[5]))
+
+WebUI.verifyTextPresent(Ctext, true)
 
 WebUI.verifyTextPresent(CapTitle, true)
 
+WebUI.verifyTextPresent(GlobalVariable.EventseditLDD[0], true)
+
+not_run: WebUI.verifyTextPresent(GlobalVariable.EventseditLDD[1], true)
+
+not_run: WebUI.verifyTextPresent(GlobalVariable.EventseditLDD[2], true)
+
+WebUI.verifyTextPresent(GlobalVariable.EventseditLDD[3], true)
+
+WebUI.verifyTextPresent(GlobalVariable.EventseditLDD[4], true)
+
 WebUI.switchToDefaultContent()
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
-
-if (WebUI.verifyTextPresent('Activate your', true)) {
-    WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
-} else {
-    WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[7]), false)
-}
+not_run: WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 

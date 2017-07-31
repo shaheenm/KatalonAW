@@ -80,11 +80,5 @@ WebUI.verifyTextPresent(CapTitle, true)
 
 WebUI.switchToDefaultContent()
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
-
-if (WebUI.verifyTextPresent('Activate your', true)) {
-    WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
-} else {
-    WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[7]), false)
-}
+not_run: WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 

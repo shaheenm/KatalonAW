@@ -21,11 +21,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('My Content/Our Team/Modal/No Images/Verify_Draft/Draft_Add_Team_'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('My Content/Events_Buggy/Modal/No Images/Verify_Draft/Add a Draft Event'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))
+WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Events'))
 
 Title = WebUI.getText(findTestObject('Page_Pages  junetest2bda/h3_Title'))
 
@@ -37,19 +37,13 @@ WebUI.waitForElementPresent(findTestObject('Page_Pages  junetest2bda/Modal/div_u
 WebUI.setText(findTestObject('Page_Pages  junetest2bda/Modal/input_title0value_Title'), Title + (GlobalVariable.AddDraftTitle[
     3]))
 
-String TeamMemberWeightValue = GlobalVariable.TeamMemberWeight
-
-WebUI.setText(findTestObject('Page_Our Team  junetest2bda/input_field_weight0value'), TeamMemberWeightValue)
-
-GlobalVariable.TeamMemberWeight -= 1
-
 WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
+not_run: WebUI.click(findTestObject('Page_User dashboard  junetest2bda/Compliance Menu/a_Send to Compliance (31)'))
 
-WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[3]), true)
+not_run: WebUI.verifyTextPresent(Title + (GlobalVariable.AddDraftTitle[3]), true)
 
