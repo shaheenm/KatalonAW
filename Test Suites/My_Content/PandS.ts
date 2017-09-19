@@ -4,7 +4,7 @@
    <name>PandS</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-07-24T16:02:22</lastRun>
+   <lastRun>2017-09-07T11:18:14</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

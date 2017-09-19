@@ -21,6 +21,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login/Login Via Website'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('My Content/Pages/Modal/Verify_Draft/Draft_Add'), [('Title') : '', ('Ctext') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
@@ -52,7 +54,7 @@ WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/butt
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SaveasDraft'))
 
 'Click to Design Tab\\r\\n'
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Pages only'))
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Other'))
 
 WebUI.waitForPageLoad(2)
 

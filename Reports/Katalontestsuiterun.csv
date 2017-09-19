@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Pages,Chrome 60.0.3112.113,,2017-09-07 10:24:11,2017-09-07 10:25:49,1m - 38.346s,PASSED
+,,,,,,
+Test Cases/Login/Login Via Website,Chrome 60.0.3112.113,"Switch Between \""Login Via Website\"" and \""Login Via Accounts\""",2017-09-07 10:24:11,2017-09-07 10:24:31,19.729s,PASSED
+openBrowser,Chrome 60.0.3112.113,,2017-09-07 10:24:12,2017-09-07 10:24:15,3.125s,PASSED
+navigateToUrl,Chrome 60.0.3112.113,,2017-09-07 10:24:15,2017-09-07 10:24:18,2.838s,PASSED
+maximizeWindow,Chrome 60.0.3112.113,,2017-09-07 10:24:18,2017-09-07 10:24:19,1.134s,PASSED
+setText,Chrome 60.0.3112.113,,2017-09-07 10:24:19,2017-09-07 10:24:19,0.209s,PASSED
+setText,Chrome 60.0.3112.113,,2017-09-07 10:24:19,2017-09-07 10:24:19,0.133s,PASSED
+click,Chrome 60.0.3112.113,,2017-09-07 10:24:19,2017-09-07 10:24:31,11.695s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2017-09-07 10:24:31,2017-09-07 10:24:31,0.045s,PASSED
+,,,,,,
+Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add,Chrome 60.0.3112.113,,2017-09-07 10:24:31,2017-09-07 10:25:27,56.081s,PASSED
+click,Chrome 60.0.3112.113,,2017-09-07 10:24:31,2017-09-07 10:24:38,7.346s,PASSED
+Statement - Title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Pages  junetest2bda/h3_Title)),Chrome 60.0.3112.113,,2017-09-07 10:24:38,2017-09-07 10:24:39,0.089s,PASSED
+click,Chrome 60.0.3112.113,,2017-09-07 10:24:39,2017-09-07 10:24:44,5.374s,PASSED
+waitForElementPresent,Chrome 60.0.3112.113,,2017-09-07 10:24:44,2017-09-07 10:24:46,1.934s,PASSED
+verifyElementPresent,Chrome 60.0.3112.113,,2017-09-07 10:24:46,2017-09-07 10:24:46,0.395s,PASSED
+setText,Chrome 60.0.3112.113,,2017-09-07 10:24:46,2017-09-07 10:24:47,0.602s,PASSED
+Statement - Ctext = CustomKeywords.random.Rand_CkEd_Text.rand_text(CKText),Chrome 60.0.3112.113,Random Ckeditor Text Generator\\r\\n,2017-09-07 10:24:47,2017-09-07 10:24:47,0.019s,PASSED
+switchToFrame,Chrome 60.0.3112.113,,2017-09-07 10:24:47,2017-09-07 10:24:49,2.128s,PASSED
+setText,Chrome 60.0.3112.113,,2017-09-07 10:24:49,2017-09-07 10:24:55,5.814s,PASSED
+switchToDefaultContent,Chrome 60.0.3112.113,,2017-09-07 10:24:55,2017-09-07 10:24:55,0.025s,PASSED
+verifyElementClickable,Chrome 60.0.3112.113,,2017-09-07 10:24:55,2017-09-07 10:24:55,0.067s,PASSED
+click,Chrome 60.0.3112.113,,2017-09-07 10:24:55,2017-09-07 10:25:25,30.451s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2017-09-07 10:25:25,2017-09-07 10:25:25,0.036s,PASSED
+switchToFrame,Chrome 60.0.3112.113,,2017-09-07 10:25:25,2017-09-07 10:25:26,1.008s,PASSED
+Statement - CapTitle = CustomKeywords.random.Capitals.makeCap(Title + AddDraftTitle[0]),Chrome 60.0.3112.113,,2017-09-07 10:25:26,2017-09-07 10:25:26,0.007s,PASSED
+verifyTextPresent,Chrome 60.0.3112.113,,2017-09-07 10:25:26,2017-09-07 10:25:27,0.181s,PASSED
+verifyTextPresent,Chrome 60.0.3112.113,,2017-09-07 10:25:27,2017-09-07 10:25:27,0.197s,PASSED
+switchToDefaultContent,Chrome 60.0.3112.113,,2017-09-07 10:25:27,2017-09-07 10:25:27,0.028s,PASSED
+,,,,,,
+Test Cases/My Content/Pages/Modal/close Modals_AddButton,Chrome 60.0.3112.113,,2017-09-07 10:25:27,2017-09-07 10:25:48,21.060s,PASSED
+click,Chrome 60.0.3112.113,,2017-09-07 10:25:27,2017-09-07 10:25:34,7.175s,PASSED
+click,Chrome 60.0.3112.113,,2017-09-07 10:25:34,2017-09-07 10:25:40,5.444s,PASSED
+waitForElementPresent,Chrome 60.0.3112.113,,2017-09-07 10:25:40,2017-09-07 10:25:42,2.622s,PASSED
+verifyElementPresent,Chrome 60.0.3112.113,,2017-09-07 10:25:42,2017-09-07 10:25:43,0.357s,PASSED
+click,Chrome 60.0.3112.113,,2017-09-07 10:25:43,2017-09-07 10:25:48,5.266s,PASSED
+verifyElementNotPresent,Chrome 60.0.3112.113,,2017-09-07 10:25:48,2017-09-07 10:25:48,0.081s,PASSED

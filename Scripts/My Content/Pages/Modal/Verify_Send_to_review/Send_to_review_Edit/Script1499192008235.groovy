@@ -50,7 +50,7 @@ WebUI.verifyElementClickable(findTestObject('Page_Pages  junetest2bda/Modal/butt
 WebUI.click(findTestObject('Page_Pages  junetest2bda/Modal/button_SendtoReview'))
 
 'Click to Design Tab\\r\\n'
-WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Pages only'))
+WebUI.click(findTestObject('Page_Pages  junetest2bda/a_Test Draft Other'))
 
 WebUI.waitForPageLoad(2)
 

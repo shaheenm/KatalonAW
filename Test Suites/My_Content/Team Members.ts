@@ -4,12 +4,12 @@
    <name>Team Members</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-07-18T10:48:11</lastRun>
+   <lastRun>2017-09-14T12:20:40</lastRun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <testSuiteGuid>b41144d9-da5e-4a53-841e-b3b1a0b82295</testSuiteGuid>
    <testCaseLink>
       <guid>9be1066d-31ac-48d8-806d-3a847e85d5f7</guid>

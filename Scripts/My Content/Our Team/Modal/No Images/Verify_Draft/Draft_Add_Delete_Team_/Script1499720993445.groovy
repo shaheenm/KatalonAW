@@ -59,6 +59,8 @@ WebUI.waitForElementNotPresent(findTestObject('Page_User dashboard  junetest2bda
 WebUI.verifyElementNotPresent(findTestObject('Page_User dashboard  junetest2bda/Delete Modal/div_ui-dialog ui-widget ui-wid'), 
     2)
 
+WebUI.waitForPageLoad(2)
+
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/a_MyContent'))
 
 WebUI.click(findTestObject('Page_User dashboard  junetest2bda/My Content Menu/a_Our Team'))

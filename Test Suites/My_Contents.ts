@@ -3,7 +3,7 @@
    <description></description>
    <name>My_Contents</name>
    <tag></tag>
-   <executionMode>PARALLEL</executionMode>
+   <executionMode>SEQUENTIAL</executionMode>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

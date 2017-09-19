@@ -4,12 +4,12 @@
    <name>Blogs</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-07-18T10:48:11</lastRun>
+   <lastRun>2017-09-12T14:01:35</lastRun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <testSuiteGuid>34a3eca5-2fa1-42f1-b018-e5cb2d3ec861</testSuiteGuid>
    <testCaseLink>
       <guid>9b635b82-97c7-418a-b271-1d7a6978c0a1</guid>

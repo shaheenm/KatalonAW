@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pages" time="98" tests="3" failures="0" errors="0">
+   <testsuite name="Pages" tests="3" failures="0" errors="0" time="98" timestamp="2017-09-07 10:24:11" hostname="CINDY-AW$ - Cindy-AW" id="Test Suites/My_Content/Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Cindy\\git\\KatalonAW\\Reports\\My_Content\\Pages\\20170907_102408"/>
+         <property name="logFiles" value="C:\\Users\\Cindy\\git\\KatalonAW\\Reports\\My_Content\\Pages\\20170907_102408\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CINDY-AW$ - Cindy-AW"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="192.168.1.211"/>
+         <property name="sessionId" value="fc7f4e3270e191f5a5b9d2fd59dcffd1"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login Via Website" classname="Test Cases/Login/Login Via Website" status="PASSED">
+         <system-out><![CDATA[2017-09-07 10:24:11 - [TEST_CASE][PASSED] - Test Cases/Login/Login Via Website: Test Cases/Login/Login Via Website
+
+2017-09-07 10:24:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-07 10:24:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-07 10:24:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://releasetestaugbd2aexpansion.force1.awdev.ca/user' successfully
+
+2017-09-07 10:24:18 - [MESSAGE][PASSED] - Navigate to 'http://releasetestaugbd2aexpansion.force1.awdev.ca/user' successfully
+
+2017-09-07 10:24:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-07 10:24:19 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-07 10:24:19 - [TEST_STEP][PASSED] - setText: Text 'releasetestaugbd2a' is set on object 'Object Repository/Page_Log in  AW Force/input_name_Username'
+
+2017-09-07 10:24:19 - [MESSAGE][PASSED] - Text 'releasetestaugbd2a' is set on object 'Object Repository/Page_Log in  AW Force/input_name_Username'
+
+2017-09-07 10:24:19 - [TEST_STEP][PASSED] - setText: Text 'welcome' is set on object 'Object Repository/Page_Log in  AW Force/input_pass_Password'
+
+2017-09-07 10:24:19 - [MESSAGE][PASSED] - Text 'welcome' is set on object 'Object Repository/Page_Log in  AW Force/input_pass_Password'
+
+2017-09-07 10:24:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in  AW Force/input_op_Submit' is clicked on
+
+2017-09-07 10:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in  AW Force/input_op_Submit' is clicked on
+
+2017-09-07 10:24:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-09-07 10:24:31 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add" classname="Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add" status="PASSED">
+         <system-out><![CDATA[2017-09-07 10:24:31 - [TEST_CASE][PASSED] - Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add: Test Cases/My Content/Pages/Modal/Verify_Draft/Draft_Add
+
+2017-09-07 10:24:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-09-07 10:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-09-07 10:24:38 - [TEST_STEP][PASSED] - Statement - Title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Pages  junetest2bda/h3_Title)): Text of object 'Object Repository/Page_Pages  junetest2bda/h3_Title' is: 'Pages'
+
+2017-09-07 10:24:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Pages  junetest2bda/h3_Title' is: 'Pages'
+
+2017-09-07 10:24:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-09-07 10:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-09-07 10:24:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-09-07 10:24:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-09-07 10:24:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-09-07 10:24:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-09-07 10:24:46 - [TEST_STEP][PASSED] - setText: Text 'Pages Add Draft' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-09-07 10:24:47 - [MESSAGE][PASSED] - Text 'Pages Add Draft' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/input_title0value_Title'
+
+2017-09-07 10:24:47 - [TEST_STEP][PASSED] - Statement - Ctext = CustomKeywords.random.Rand_CkEd_Text.rand_text(CKText): random.Rand_CkEd_Text.rand_text is PASSED
+
+2017-09-07 10:24:47 - [MESSAGE][PASSED] - random.Rand_CkEd_Text.rand_text is PASSED
+
+2017-09-07 10:24:47 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Pages  junetest2bda/Modal/iframe_cke_wysiwyg_frame cke_r (2)'
+
+2017-09-07 10:24:49 - [TEST_STEP][PASSED] - setText: Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mi ex, consectetur ac cursus nec, egestas id enim. Ut venenatis lacus diam, eget pretium quam dictum vitae. Nunc pretium ipsum eget est tincidunt rutrum. Donec egestas in enim id viverra. Sed ut euismod turpis. Etiam quis pulvinar turpis. Maecenas gravida id dolor at commodo. Pellentesque ut semper nibh. Pellentesque auctor finibus ex, ac mattis augue bibendum vel. Mauris nec viverra orci. Quisque lobortis dolor et rutrum finibus. Duis auctor sed nisl aliquam tempus. In nisl eros, eleifend suscipit pr' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/p'
+
+2017-09-07 10:24:55 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mi ex, consectetur ac cursus nec, egestas id enim. Ut venenatis lacus diam, eget pretium quam dictum vitae. Nunc pretium ipsum eget est tincidunt rutrum. Donec egestas in enim id viverra. Sed ut euismod turpis. Etiam quis pulvinar turpis. Maecenas gravida id dolor at commodo. Pellentesque ut semper nibh. Pellentesque auctor finibus ex, ac mattis augue bibendum vel. Mauris nec viverra orci. Quisque lobortis dolor et rutrum finibus. Duis auctor sed nisl aliquam tempus. In nisl eros, eleifend suscipit pr' is set on object 'Object Repository/Page_Pages  junetest2bda/Modal/p'
+
+2017-09-07 10:24:55 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-09-07 10:24:55 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Pages  junetest2bda/Modal/button_SaveasDraft' is clickable
+
+2017-09-07 10:24:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/button_SaveasDraft' is clickable
+
+2017-09-07 10:24:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/Modal/button_SaveasDraft' is clicked on
+
+2017-09-07 10:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/Modal/button_SaveasDraft' is clicked on
+
+2017-09-07 10:25:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-09-07 10:25:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-09-07 10:25:25 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Preview  junetest2bda/iframe_website-preview'
+
+2017-09-07 10:25:26 - [TEST_STEP][PASSED] - Statement - CapTitle = CustomKeywords.random.Capitals.makeCap(Title + AddDraftTitle[0]): random.Capitals.makeCap is PASSED
+
+2017-09-07 10:25:26 - [MESSAGE][PASSED] - random.Capitals.makeCap is PASSED
+
+2017-09-07 10:25:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'PAGES ADD DRAFT' is present on page  using regular expression
+
+2017-09-07 10:25:27 - [MESSAGE][PASSED] - Text 'PAGES ADD DRAFT' is present on page  using regular expression
+
+2017-09-07 10:25:27 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mi ex, consectetur ac cursus nec, egestas id enim. Ut venenatis lacus diam, eget pretium quam dictum vitae. Nunc pretium ipsum eget est tincidunt rutrum. Donec egestas in enim id viverra. Sed ut euismod turpis. Etiam quis pulvinar turpis. Maecenas gravida id dolor at commodo. Pellentesque ut semper nibh. Pellentesque auctor finibus ex, ac mattis augue bibendum vel. Mauris nec viverra orci. Quisque lobortis dolor et rutrum finibus. Duis auctor sed nisl aliquam tempus. In nisl eros, eleifend suscipit pr' is present on page  using regular expression
+
+2017-09-07 10:25:27 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mi ex, consectetur ac cursus nec, egestas id enim. Ut venenatis lacus diam, eget pretium quam dictum vitae. Nunc pretium ipsum eget est tincidunt rutrum. Donec egestas in enim id viverra. Sed ut euismod turpis. Etiam quis pulvinar turpis. Maecenas gravida id dolor at commodo. Pellentesque ut semper nibh. Pellentesque auctor finibus ex, ac mattis augue bibendum vel. Mauris nec viverra orci. Quisque lobortis dolor et rutrum finibus. Duis auctor sed nisl aliquam tempus. In nisl eros, eleifend suscipit pr' is present on page  using regular expression
+
+2017-09-07 10:25:27 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Content/Pages/Modal/close Modals_AddButton" classname="Test Cases/My Content/Pages/Modal/close Modals_AddButton" status="PASSED">
+         <system-out><![CDATA[2017-09-07 10:25:27 - [TEST_CASE][PASSED] - Test Cases/My Content/Pages/Modal/close Modals_AddButton: Test Cases/My Content/Pages/Modal/close Modals_AddButton
+
+2017-09-07 10:25:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-09-07 10:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User dashboard  junetest2bda/a_MyContent' is clicked on
+
+2017-09-07 10:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-09-07 10:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/a_Add New' is clicked on
+
+2017-09-07 10:25:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-09-07 10:25:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-09-07 10:25:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-09-07 10:25:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' is present
+
+2017-09-07 10:25:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Pages  junetest2bda/Modal/Button_Close' is clicked on
+
+2017-09-07 10:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Pages  junetest2bda/Modal/Button_Close' is clicked on
+
+2017-09-07 10:25:48 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' located by 'By.xpath: //div[count(. | //*[@class = 'ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons']) = count(//*[@class = 'ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons'])]' is not present after '2' second(s)
+
+2017-09-07 10:25:48 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Pages  junetest2bda/Modal/div_ui-dialog ui-widget ui-wid_MyContentModal' located by 'By.xpath: //div[count(. | //*[@class = 'ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons']) = count(//*[@class = 'ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons'])]' is not present after '2' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-07 10:24:11 - [TEST_SUITE][PASSED] - Pages: Test Cases/My Content/Pages/Modal/close Modals_AddButton]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
